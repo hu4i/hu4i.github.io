@@ -9,34 +9,6 @@
       <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 05 Apr 2023 16:15:09 +0800</lastBuildDate><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Formal Methods</title>
-      <link>https://examplesite.com/tags/formal-methods/</link>
-      <pubDate>Wed, 05 Apr 2023 16:15:09 +0800</pubDate>
-      
-      <guid>https://examplesite.com/tags/formal-methods/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Notes</title>
-      <link>https://examplesite.com/tags/notes/</link>
-      <pubDate>Wed, 05 Apr 2023 16:15:09 +0800</pubDate>
-      
-      <guid>https://examplesite.com/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Me</title>
-      <link>https://examplesite.com/tags/me/</link>
-      <pubDate>Wed, 05 Apr 2023 13:56:26 +0800</pubDate>
-      
-      <guid>https://examplesite.com/tags/me/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
