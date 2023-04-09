@@ -95,5 +95,5 @@ I’m currently teaching myself in the area of program logic and its related bac
 - L-team (2018-2021) (A team that has participated in many competitions involving cyber security)
   - **Member of the binary branch** (a branch that focuses on vulnerabilities in all forms of software)
 - Contribution to a book named *CTF-All-In-One (Pwn)* (Chinese name: *CTF竞赛权威指南(Pwn篇)*), ISBN: 9787121399527
-  - I write the analysis of *malloc* and *free* in ptmalloc (a memory management library adopted by glibc)
+  - I wrote the analysis of *malloc* and *free* in ptmalloc (a memory management library adopted by glibc)
   - **Acknowledged by the writer** in the preface of the book
