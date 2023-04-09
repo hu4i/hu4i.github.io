@@ -6,29 +6,29 @@ draft: false
 
 ## My Attempts for Studying Formal Methods
 
-After deciding to study solving cyber security problems via formal methods, I have to self-study much fundamental knowledge from scratch (Because this area is not famous in China, and there are almost no relating courses or textbooks). Learning without guidance is really inefficient, and I’m still not sure if I’m in the right direction. Here are the selected materials (lecture notes, books, papers, etc.) I have learned/studied:
+After deciding to study solving cyber security problems via formal methods, I had to self-study much fundamental knowledge from scratch (Because this area is not famous in China, and there are almost no realated courses or textbooks). Learning without guidance is really inefficient, and I’m still not sure if I’m in the right direction. Here are the selected materials (lecture notes, books, papers, etc.) I have learned/studied:
 
-### Basic Views: Software Foundations
+### Basic Views
 
-[*Software Foundations*](https://softwarefoundations.cis.upenn.edu/) is a series of online textbooks, it gives me an impressive impression of viewing programming mathematically. It gradually constructs a relatively complex theorem from basic atoms and encourages you to believe you can prove anything on a computer. Therefore, after finishing reading [*Volume 1: Logical Foundations*](https://softwarefoundations.cis.upenn.edu/lf-current/index.html), I determined to study formal methods.
+[*Software Foundations*](https://softwarefoundations.cis.upenn.edu/) is a series of online textbooks that gives me an impressive impression of viewing programming mathematically. It gradually constructs a relatively complex theorem from basic atoms, encouraging you to believe you can prove anything on a computer. Therefore, after finishing reading [*Volume 1: Logical Foundations*](https://softwarefoundations.cis.upenn.edu/lf-current/index.html), I determined to study formal methods.
 
 After reading *[Volume 2: Programming Language Foundations](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)*, **I became interested in Hoare logic. Its idea of only focusing on what’s changed in a program is fresh and amazing.**
 
 But after investigating Hoare logic further, I thought I had to learn the basic knowledge of formal logic:
 
-### Mathematical Logic: A Mathematical Introduction to Mathematical Logic
+### Mathematical Logic
 
-When reading this book *A Mathematical Introduction to Mathematical Logic*[\$^1\$][1], I always got lost in the details of the proofs and exercises. After finishing reading the ***********************************Soundness and Completeness Theorems*********************************** of First-Order Logic, **I feel that I got a taste of formal logic.** But the remaining topics seem not so accessible to me, and I gave up. But I got interested in the computability theory it mentions.
+When reading this book, *A Mathematical Introduction to Mathematical Logic*[\$^1\$][1], I always got lost in the details of the proofs and exercises. After reading the *Soundness and Completeness Theorems* of first-order logic, **I feel I got a taste of formal logic.** But the remaining topics seem not so accessible to me, and I gave up. But I got interested in the computability theory the book mentions.
 
-### Computability: Computability and Logic
+### Computability
 
-*Computability and Logic*[\$^2\$][2] is an interesting book that makes you believe you can construct a “computer”(a machine that can compute) by yourself. **I got a basic comprehension of computability from this book.** It uses rigorous mathematical proof to show the equivalences among different representations of computability. But it also makes me kind of frustrated, because I don’t want to believe that our brains may have the possibility to be machines that only carry simple tasks like term rewriting.
+*Computability and Logic*[\$^2\$][2] is an interesting book that makes you believe you can construct a “computer”(here I mean an abstract machine that can compute) by yourself. **I got a basic comprehension of computability from this book.** It uses rigorous mathematical proof to show the equivalences among different representations of computability. But it also makes me kind of frustrated because I don’t want to believe that our brains may have the possibility to be machines that only carry simple tasks like term rewriting.
 
 ### Skimming Through Papers
 
-My tutor asked me not just to read textbooks, I should both get a broad view and find a relatively small topic to study. After reading some Chinese review papers[\$^{3,}\$][3] [\$^{4,}\$][4] [\$^5\$][5]. I think that model checking isn’t an elegant method because it’s mainly a search problem. **I believe an elegant way should be comprehensive, not just try out every possibility. Thus I put my efforts into investigating two methods: formal synthesis and formal verification.**
+My tutor suggested me not just to read textbooks but to get a broad view and find a relatively minor topic to study. After reading some Chinese review papers[\$^{3,}\$][3] [\$^{4,}\$][4] [\$^5\$][5], I think that model checking isn’t an elegant method because it’s mainly a search problem. **I believe an elegant way should be comprehensive, not just try out every possibility. Thus I put my efforts into investigating two methods: formal synthesis and formal verification.**
 
-After reading a paper about synthesis[\$^6\$][6], I chose some interesting topics like logic programming and deductive synthesis to investigate:
+After reading a paper about synthesis[\$^6\$][6], I chose some interesting topics to investigate, like logic programming and deductive synthesis:
 
 - Logic programming
 
@@ -40,15 +40,15 @@ After reading a paper about synthesis[\$^6\$][6], I chose some interesting topic
 
 I have to admit that I investigated poorly in this area, but I lost interest in this area mostly because of the successful application of machine learning in program generation. And I believe formal verification will be an influential method to check the correctness of the machine-generated code.
 
-But I’m not empty-handed in investigating program synthesis, I learned an important conception of “constructive”:
+But I’m not empty-handed in investigating program synthesis, because I learned an important conception of “constructive”:
 
-### Intuitionistic Logic: On the Meanings of the Logical Constants and the Justifications of the Logical Laws
+### Intuitionistic Logic
 
-During reading papers about program synthesis, “constructive” is always assumed to be known by readers. By searching on the internet, I found a lecture note named [*Constructive Logic*](https://www.cs.cmu.edu/~fp/courses/15317-f00/handouts/logic.pdf). It cites Martin-Löf’s famous paper [\$^{12}\$][12]. After reading this paper and related materials [\$^{13,}\$][13] [\$^{14}\$][14], **I find that it is intuitionistic logic that corresponds to programming language best.** At this time I can really “touch” the idea of Curry-Howard correspondence.
+During reading papers about program synthesis, “constructive” is always assumed to be known by readers. By searching on the internet, I found a lecture note named [*Constructive Logic*](https://www.cs.cmu.edu/~fp/courses/15317-f00/handouts/logic.pdf). It cites Martin-Löf’s famous paper [\$^{12}\$][12]. After reading this paper and related materials [\$^{13,}\$][13] [\$^{14}\$][14], **I find that it is intuitionistic logic that corresponds to programming language best.** At that time, I could really “touch” the idea of Curry-Howard correspondence.
 
 ### Lambda Calculus
 
-I think I should learn formal semantics before lambda calculus. Because when I read the book [\$^{15}\$][15], I just knew that it is a model of computing and didn’t know how important it is and how it can be used in computer science. I just read four chapters of that book and **got the basic ideas of lambda calculus**. I think I should read *Types and Programming Languages* [\$^{16}\$][16] first.
+I think I should learn formal semantics before lambda calculus. Because when I read the book [\$^{15}\$][15], I could just know that it is a model of computing but didn’t know how important it is and how it can be used in computer science. Therefore, I just read four chapters of that book and only **got the basic ideas of lambda calculus**. I think I should read *Types and Programming Languages* [\$^{16}\$][16] first.
 
 ### Hoare Logic and Separation Logic
 
@@ -58,15 +58,15 @@ After investigating program synthesis, I think program verification is more attr
 
 A senior at Aarhus University told me about Iris. Iris claims to be a general framework of program logic. What surprises me is its successful application in the formal verification of Rust [\$^{19}\$][19].  And I think it may stop the trend that creates different separation logic for different aims.
 
-But, for now, I can only understand the “separation” part of Iris. I still have problems in the “concurrent”, “higher-order” and “framework” parts. Even worse, I have to systematically learn the formal semantics because there are some definitions that I can’t recognize.
+But, for now, I can only understand the “separation” part of Iris. I still have problems in the “concurrent,” “higher-order,” and “framework” parts. Even worse, I have to systematically learn the formal semantics because there are some definitions that I can’t recognize.
 
-### Formal Semantics: Types and Programming Languages
+### Formal Semantics
 
-After reading the lecture notes of [*CS 4110  Programming Languages and Logics*](https://www.cs.cornell.edu/courses/cs4110/2020fa/), I find a textbook named *Types and Programming Languages* [\$^{16}\$][16]. **It’s about operational semantics** and introduces things step by step. I read some chapters about it and tried out its exercises in Ocaml.
+After reading the lecture notes of [*CS 4110  Programming Languages and Logics*](https://www.cs.cornell.edu/courses/cs4110/2020fa/), I found a textbook named *Types and Programming Languages* [\$^{16}\$][16]. **It’s about operational semantics** and introduces things step by step. I read some chapters about it and tried out its exercises in Ocaml.
 
-### Programming = proving? The Curry-Howard correspondence today
+### The Curry-Howard correspondence
 
-When I could understand the definitions involving semantics, I continued to read the lecture notes of Iris. I’m stuck on the concept of “later modality”. I don’t know where to begin, but I found Xavier Leroy’s [lecutre notes](https://xavierleroy.org/CdF/2018-2019/) mentioned it. I think it’s a review of formal semantics and programming logic. I’m currently reading it.
+When I could understand the definitions involving semantics, I continued to read the lecture notes of Iris and stuck on the concept of “later modality.” I don’t know where to begin with this concept, but I found Xavier Leroy’s [lecture notes](https://xavierleroy.org/CdF/2018-2019/) mentioned it. It's about the Curry-Howard correspondence and I think it’s a review of formal semantics and programming logic. I’m currently reading it.
 
 ### Category Theory
 

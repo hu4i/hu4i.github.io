@@ -8,7 +8,7 @@ hidemeta: true
 
 I am Wei Li, an exam-exempted master's student who majors in cyberspace security at [School of Cyber Engineering](https://ceen.xidian.edu.cn/), [Xidian University](https://en.xidian.edu.cn/) (XDU), China. I'm a former [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) player in [L-team](https://l.xdsec.org/) and [XDSEC](https://xdsec.org/). My research interest falls in securing software systems via formal methods.
 
-During my undergraduate education, I mostly focused on CTF competitions and extracurricular activities of the information security club XDSEC. I’m good at self-study and have been granted a postgraduate recommendation due to my performance in information security-related competitions.
+During my undergraduate education, I mostly focused on CTF competitions and extracurricular activities of the information security club XDSEC. By self-study and cooperation with my teammates, I have been granted a postgraduate recommendation due to my performance in information security-related competitions.
 
 I’m currently teaching myself in the area of program logic and its related background knowledge. Here is my CV:
 
@@ -91,3 +91,6 @@ I’m currently teaching myself in the area of program logic and its related bac
   - **Member and (later) the leader of the binary department** (a department that focuses on vulnerabilities in all forms of software)
 - L-team (2018-2021) (A team that has participated in many competitions involving cyber security)
   - **Member of the binary branch** (a branch that focuses on vulnerabilities in all forms of software)
+- Contribution to a book named *CTF-All-In-One (Pwn)* (Chinese name: *CTF竞赛权威指南(Pwn篇)*), ISBN: 9787121399527
+  - I write the analysis of *malloc* in ptmalloc (a memory management library adopted by glibc)
+  - **Acknowledge by the writer** in the preface of the book
