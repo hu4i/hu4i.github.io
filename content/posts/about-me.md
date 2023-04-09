@@ -4,13 +4,14 @@ date: 2023-04-05T13:56:26+08:00
 draft: false
 showtoc: false
 hidemeta: true
+ShowPostNavLinks: false
 ---
 
 I am Wei Li, an exam-exempted master's student who majors in cyberspace security at [School of Cyber Engineering](https://ceen.xidian.edu.cn/), [Xidian University](https://en.xidian.edu.cn/) (XDU), China. I'm a former [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) player in [L-team](https://l.xdsec.org/) and [XDSEC](https://xdsec.org/). My research interest falls in securing software systems via formal methods.
 
 During my undergraduate education, I mostly focused on CTF competitions and extracurricular activities of the information security club XDSEC. By self-study and cooperation with my teammates, I have been granted a postgraduate recommendation due to my performance in information security-related competitions.
 
-I’m currently teaching myself in the area of program logic and its related background knowledge. Here is my CV:
+I’m currently teaching myself in the area of program logic and its related background knowledge. Here is my CV ([pdf version](https://github.com/hu4i/autoCV/blob/build/cv.pdf)):
 
 ## Information
 
@@ -18,11 +19,11 @@ I’m currently teaching myself in the area of program logic and its related bac
 
 **Email:** [wei.li@stu.xidian.edu.cn](mailto:wei.li@stu.xidian.edu.cn)
 
-**Address:** No. 266, Xinglong Section of Xifeng Road, Xi'an, Shaanxi, 710126, P. R. China
-
 **Mobile:** (+86) 18909188277
 
 **Estimated Graduation Date:** June 2024
+
+**Address:** No. 266, Xinglong Section of Xifeng Road, Xi'an, Shaanxi, 710126, P. R. China
 
 ## RESEARCH INTERESTS
 
@@ -61,7 +62,7 @@ I’m currently teaching myself in the area of program logic and its related bac
   - **Teaching assistant**, Xidian University (XDU)
 - Modern Cryptography, (Mar 2023 – Jun 2023)
   - **Teaching assistant**, Xidian University (XDU)
-- Competition Training Base of Cyber Security, (2021 - 2022)
+- Competition Training Base of Cyber Security, (Sept 2020 - Dec 2022)
   - **Teaching assistant and Organizing assistant**, Xidian University (XDU)
 
 ## RELEVANT SERVICES
@@ -77,10 +78,12 @@ I’m currently teaching myself in the area of program logic and its related bac
   - **Organizer**: Information Security Clubs in XDU, UESTC, HDU
   - **Role**: One of the organizers
 - Changan Cup Electronic Data Forensics Competition (2021)
-  - **Sponsor**: Xidian University
+  - **Sponsor**: Shanghai Honglian Network Technology Co., Ltd.
+  - **Organizer**: Competition Training Base of Cyber Security, XDU
   - **Role**: Sponsor's Head of Students
 - LCTF, MoeCTF, MiniLCTF, etc. (2018-2021) (Computer security competitions for colleague students)
-  - **Sponsor**: Competition Training Base of Cyber Security of Xidian University
+  - **Sponsor**: School of Cyber Engineering, XDU
+  - **Organizer**: XDSEC
   - **Role**: One of the organizers
 
 ## Extracurricular Activities
