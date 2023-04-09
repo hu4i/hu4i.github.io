@@ -11,7 +11,7 @@ I am Wei Li, an exam-exempted master's student who majors in cyberspace security
 
 During my undergraduate education, I mostly focused on CTF competitions and extracurricular activities of the information security club XDSEC. By self-study and cooperation with my teammates, I have been granted a postgraduate recommendation due to my performance in information security-related competitions.
 
-I’m currently teaching myself in the area of program logic and its related background knowledge. Here is my CV ([pdf version](https://github.com/hu4i/autoCV/blob/build/cv.pdf)):
+I’m currently teaching myself in the area of program logic and its related background knowledge. Here is my CV ([pdf version](https://github.com/hu4i/autoCV/raw/build/cv.pdf)):
 
 ## Information
 
