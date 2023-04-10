@@ -1,6 +1,7 @@
 ---
 title: "Blog Notes"
 date: 2023-04-10T10:18:08+08:00
+draft: true
 ---
 
 ## Themes

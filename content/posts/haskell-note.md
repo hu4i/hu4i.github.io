@@ -1,7 +1,7 @@
 ---
 title: "Haskell Note"
 date: 2023-04-10T08:49:08+08:00
-draft: false
+draft: true
 ---
 
 Chapter 1: [http://learnyouahaskell.com/starting-out](http://learnyouahaskell.com/starting-out)
