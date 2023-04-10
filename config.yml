@@ -1,7 +1,7 @@
 baseURL: "https://examplesite.com/"
 title: Wei Li's blog 
 paginate: 5
-theme: PaperMod
+theme: PaperModX
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -26,6 +26,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  TocSide: right
   ShowReadingTime: true
   ShowShareButtons: false 
   ShowPostNavLinks: true
@@ -141,7 +142,7 @@ markup:
     renderer: 
       unsafe: true
   highlight:
-    noClasses: false
+    # noClasses: false
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
