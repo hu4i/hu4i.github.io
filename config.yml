@@ -20,6 +20,9 @@ params:
   # description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Wei Li
+  mainSections:
+    - notes 
+    - posts
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -58,19 +61,19 @@ params:
     iconHeight: 35
 
   # profile-mode
-  # profileMode:
-  #   enabled: false # needs to be explicitly set
-  #   title: ExampleSite
-  #   subtitle: "This is subtitle"
-  #   imageUrl: "<img location>"
-  #   imageWidth: 120
-  #   imageHeight: 120
-  #   imageTitle: my image
-  #   buttons:
-  #     - name: Posts
-  #       url: posts
-  #     - name: Tags
-  #       url: tags
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Wei Li"
+    subtitle: "This blog will record my life of study."
+    imageUrl: "images/image.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    # buttons:
+    #   - name: Blogs
+    #     url: blogs
+    #   - name: Tags
+    #     url: tags
 
   # home-info mode
   homeInfoParams:
@@ -115,6 +118,12 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: Notes
+      url: /notes/
+      weight: 2
     - identifier: about
       name: About
       url: /posts/about-me
