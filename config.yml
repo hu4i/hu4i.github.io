@@ -116,6 +116,12 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+  mermaid:
+    theme: "neutral"
+    align: "center"
+
+
 menu:
   main:
     - name: Posts
@@ -145,7 +151,9 @@ menu:
     #   url: https://example.org
     #   weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
 pygmentsUseClasses: true
+
 markup:
   goldmark:
     renderer: 
