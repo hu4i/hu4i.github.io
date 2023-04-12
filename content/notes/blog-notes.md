@@ -18,6 +18,51 @@ Based on hugo:
 - new post: `hugo new posts/name-of-the-post.md`
 - local server: `hugo server`
 
+## Techniques & Gadgets
+
+### Draw diagrams
+
+1. Use [mermaid](#mermaid)
+2. Hugo natively support [approach](https://gohugo.io/content-management/diagrams/) (use [asciiflow](https://asciiflow.com/) or [Diagon](https://arthursonzogni.com/Diagon/) + [GoAT](https://github.com/bep/goat))
+
+  Example:
+
+  ```goat
+                         ┌────────┐
+      ┌─────────────────►│ Action ├──────────────────────┐
+      │                  └───┬────┘                      │
+      │                      │                           │
+      │                      ▼                           ▼
+  ┌───┴───┐               ┌──────┐                 ┌───────────┐
+  │ Agent │◄──────────────┤Reward│◄────────────────┤Environment│
+  └───────┘               └──┬───┘                 └─────┬─────┘
+      ▲                      │                           │
+      │                      ▼                           │
+      │                 ┌───────────┐                    │
+      └─────────────────┤Observation│◄───────────────────┘
+                        └───────────┘
+  ```
+
+  Its code (be careful when copying the code, because there are two extra spaces in every line):
+
+  ```markdown
+    ```goat
+                           ┌────────┐
+        ┌─────────────────►│ Action ├──────────────────────┐
+        │                  └───┬────┘                      │
+        │                      │                           │
+        │                      ▼                           ▼
+    ┌───┴───┐               ┌──────┐                 ┌───────────┐
+    │ Agent │◄──────────────┤Reward│◄────────────────┤Environment│
+    └───────┘               └──┬───┘                 └─────┬─────┘
+        ▲                      │                           │
+        │                      ▼                           │
+        │                 ┌───────────┐                    │
+        └─────────────────┤Observation│◄───────────────────┘
+                          └───────────┘
+    ```
+  ```
+
 ## Extensions
 
 ### Math Typesetting
@@ -80,16 +125,15 @@ Mermaid lets you create diagrams by writing text in markdown files.
   ```html
   <script
     type="module"
-    src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"
-  ></script>
-  <script>
-
+  >
     var config = {
       startOnLoad: true,
-      theme:'{{ if site.Params.mermaid.theme }}{{ site.Params.mermaid.theme }}{{ else }}dark{{ end }}',
+      theme:'{{ if site.Params.mermaid.theme }}{{ site.Params.mermaid.theme }}{{ else }}default{{ end }}',
       align:'{{ if site.Params.mermaid.align }}{{ site.Params.mermaid.align }}{{ else }}center{{ end }}',
     };
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize(config);
+
   </script>
   ```
 

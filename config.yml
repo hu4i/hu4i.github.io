@@ -118,7 +118,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   mermaid:
-    theme: "neutral"
+    theme: "default"
     align: "center"
 
 
