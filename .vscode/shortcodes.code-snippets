@@ -1,0 +1,89 @@
+{
+	// Place your myblog workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Short code": {
+		"scope": "markdown",
+		"prefix": "shortcode",
+		"body": [
+			"{{< $1 >}}\n $2 \n{{< /$1 >}}"
+		]
+	},
+	"Admonition": {
+		"scope": "markdown",
+		"prefix": "admonition",
+		"body": [
+			"{{< admonition type=${1|note,abstract,info,tip,success,question,failure,danger,bug,warning,example,quote|} title=\"$2\" open=${3|true,false|} >}}\n$4\n{{< /admonition >}}",
+			"$5"
+		]
+	},
+	"Mermaid": {
+		"scope": "markdown",
+		"prefix": "mermaid",
+		"body": [
+			"{{< mermaid >}}\n$3\n{{< /mermaid >}}",
+			"$4"
+		]
+	},
+	"Reference": {
+		"scope": "markdown",
+		"prefix": "ref",
+		"body": [
+			"[\\\\$^$1\\\\$][$1]"
+		]
+	},
+	"Reference_anchor": {
+		"scope": "markdown",
+		"prefix": "ref-anchor",
+		"body": [
+			"<a id=ref$1> </a> $2"
+		]
+	},
+	"Reference_link": {
+		"scope": "markdown",
+		"prefix": "ref-link",
+		"body": [
+			"[$1]: <#ref$1> \"$2\""
+		]
+	},
+	"Reference_equation_achor": {
+		"scope": "markdown",
+		"prefix": "ref-equation-anchor",
+		"body": [
+			"<a id=eqn-$1> </a>"
+		]
+	},
+	"Reference_equation": {
+		"scope": "markdown",
+		"prefix": "ref-equation",
+		"body": [
+			"[Equation \\\\$ \\rm $1\\\\$](#eqn-$1)"
+		]
+	},
+	"Reference_image_achor": {
+		"scope": "markdown",
+		"prefix": "ref-image-anchor",
+		"body": [
+			"<a id=img-$1> </a>"
+		]
+	},
+	"Reference_image": {
+		"scope": "markdown",
+		"prefix": "ref-image",
+		"body": [
+			"[Equation \\\\$ \\rm $1\\\\$](#img-$1)"
+		]
+	},
+}

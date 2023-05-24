@@ -1,0 +1,12 @@
+{
+	"time step": {
+		"scope": "markdown,latex",
+		"prefix": "time_step",
+		"body": "\\\\langle $1 \\\\rangle",
+	},
+	"order": {
+		"scope": "markdown,latex",
+		"prefix": "th",
+		"body": "{\\rm th}",
+	},
+}

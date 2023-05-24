@@ -67,7 +67,9 @@ Based on hugo:
 
 ### Math Typesetting
 
-See PaperModX's [document](https://reorx.github.io/hugo-PaperModX/docs/math-typesetting/). (But it doesn't work for me)
+I use MathJax.
+
+Basic usage of Mathjax: [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) or [MathJax - Tex : Quick Reference Guide](https://www.sqlpac.com/en/documents/mathjax-tex-practical-handbook-quick-reference.html)
 
 ### Admonition
 

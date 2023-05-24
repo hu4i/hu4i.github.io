@@ -1,0 +1,77 @@
+{
+	"Inline math": {
+        "scope": "markdown",
+		"prefix": "inline",
+		"body": ["$$1$"],
+	},
+	"Block math": {
+        "scope": "markdown",
+		"prefix": "block",
+		"body": ["$$\n$1\n$$"],
+	},
+	"equation": {
+		"scope": "markdown",
+		"prefix": "equation",
+		"body": "\\begin{${1|equation,equation*|}}\n$2\n\\end{${1|equation,equation*|}}",
+	},
+    "var":{
+        "scope": "markdown,latex",
+        "prefix": "var",
+        "body": "$$1$"
+    },
+	"inversion": {
+		"scope": "markdown,latex",
+		"prefix": "inv",
+		"body": "{$1}^{-1}",
+	},
+	"font mathbb": {
+		"scope": "markdown,latex",
+		"prefix": "mathbb",
+		"body": "\\mathbb{$1}",
+	},
+	"superscript": {
+		"scope": "markdown,latex",
+		"prefix": "super",
+		"body": "$1^{$2}",
+	},
+	"subscript": {
+		"scope": "markdown,latex",
+		"prefix": "sub",
+		"body": "$1\\_{$2}",
+	},
+	"times": {
+		"scope": "markdown,latex",
+		"prefix": "times",
+		"body": "$1 \\times $2",
+	},
+	"set": {
+		"scope": "markdown,latex",
+		"prefix": "set",
+		"body": "\\\\\\\\{ $1 \\\\\\\\}",
+	},
+	"set comprehension": {
+		"scope": "markdown,latex",
+		"prefix": "set-comprehension",
+		"body": "\\\\\\\\{ $1\\ |\\ $2 \\\\\\\\}",
+	},
+	"theorem": {
+		"scope": "markdown,latex",
+		"prefix": "theorem",
+		"body": "(Thm. $1)",
+	},
+	"definition": {
+		"scope": "markdown,latex",
+		"prefix": "definition",
+		"body": "(Def. $1)",
+	},
+	"sum": {
+		"scope": "markdown,latex",
+		"prefix": "sum",
+		"body": "\\sum\\_{$1}^{$2}",
+	},
+	"max": {
+		"scope": "markdown,latex",
+		"prefix": "max",
+		"body": "\\operatorname{max}\\_{$1} $2",
+	},
+}
