@@ -4,6 +4,9 @@ date: 2023-05-17T10:10:23+08:00
 draft: true
 ---
 
+
+This is a citation {{< cite "Devlin2019" >}}.
+
 The most of these notes in this chapter are taken from Michael Nielsen's book [\$^1\$][1] [*Neural Networks and Deep Learning*](http://neuralnetworksanddeeplearning.com/)
 
 > C1W1L04
@@ -942,3 +945,6 @@ BERT is pre-trained by cloze test and GPT is pre-trained by predicating?
 [4]: <#ref4> "Devlin, J., et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2019. p. 4171-4186."
 [5]: <#ref5> "Radford, A. and K. Narasimhan. Improving Language Understanding by Generative Pre-Training. 2018."
 [6]: <#ref6> "Radford, A., et al. Language Models are Unsupervised Multitask Learners. 2019."
+
+
+{{< bibliography >}}
