@@ -1,27 +1,35 @@
 ---
 title: "Deep Learning Notes"
 date: 2023-05-17T10:10:23+08:00
-draft: true
+draft: false
 ---
 
+## Unsorted notes
 
-This is a citation {{< cite "Devlin2019" >}}.
+---
 
-The most of these notes in this chapter are taken from Michael Nielsen's book [\$^1\$][1] [*Neural Networks and Deep Learning*](http://neuralnetworksanddeeplearning.com/)
+- Judgment among training algorithms:
 
-> C1W1L04
+  It's more consistent to make judgment about different training algorithms or neural networks based on larger training set
 
-- It's more consistent to make judgment about different training algorithms or neural networks based on larger training set
-- The scale of the training data and the speed of computation are the two main factors that drive the deep learning progress. In recent years, efficiency of the algorithm (which may influence the speed of computation) also takes an import role in this progress (eg. sigmod -> ReLu).
+- Three main factors of deep learning process
 
-> C1W2L02
+  - Scale of the training data
+  - Speed of computation
+  - Efficiency of the algorithm
 
 ## Perceptrons
 
-- Intuitive idea of (sigmoid) perceptrons[\$^1\$][1] : [Using neural nets to recognize handwritten digits](http://neuralnetworksanddeeplearning.com/chap1.html)
-- or quick reviewing[\$^1\$][1]: [Warm up: a fast matrix-based approach to computing the output from a neural network](http://neuralnetworksanddeeplearning.com/chap2.html#warm_up_a_fast_matrix-based_approach_to_computing_the_output_from_a_neural_network).
+---
 
-{{< admonition type=warning title="Perceptrons vs Sigmoid Perceptrons" open=true >}}
+There is a book named *Neural Networks and Deep Learning* {{< cite Nielsen2015 >}} that gives an intuitive idea of (sigmoid) percoeptrons:
+
+- For quick reviewing, see  [Warm up: a fast matrix-based approach to computing the output from a neural network](http://neuralnetworksanddeeplearning.com/chap2.html#warm_up_a_fast_matrix-based_approach_to_computing_the_output_from_a_neural_network).
+- For more a comprehensive understanding, see [Using neural nets to recognize handwritten digits](http://neuralnetworksanddeeplearning.com/chap1.html)
+
+Notes from Nielsens's book {{< cite Nielsen2015 >}}:
+
+{{< admonition type=Note title="Perceptrons vs sigmoid perceptrons" open=true >}}
 
 - Perceptrons
   - can [mimic the NAND gate](http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons), so it is as powerful as any other computing device.
@@ -37,8 +45,6 @@ The most of these notes in this chapter are taken from Michael Nielsen's book [\
 
 #### Terminologies
 
-{{< admonition type=note title="Terminologies" open=true >}}
-
 - **Input layer**: the leftmost layer in the network.
 - **Input neurons**: the neurons within the input layer.
 - **Output layer**: the rightmost layer in the network.
@@ -48,11 +54,7 @@ The most of these notes in this chapter are taken from Michael Nielsen's book [\
 - **Feedforward neural networks**: the output from one layer is used as input to the next layer (no loops in the network)
 - **Epoch**: when all the training inputs are fed, it is said to complete an epoch of training.
 
-{{< /admonition >}}
-
 #### Notations
-
-{{< admonition type=note title="Sigmoid perceptrons" open=true >}}
 
 - $w^L\_{jk}$: weight of a connection between two layers
 
@@ -108,12 +110,12 @@ The most of these notes in this chapter are taken from Michael Nielsen's book [\
   z^l\_j = \sum\_k w^l\_{jk} a^{l-1}\_k + b^l\_j
   \end{equation*}
   $$
-- $\sigma$: sigmoid function <a id=eqn-SIG> </a>
+- $\sigma$: sigmoid function
 
   $$
-  \begin{equation}
-  \sigma (z) = \frac{1}{1 + e^{-z}} \tag{SIG} \label{SIG}
-  \end{equation}
+  \begin{equation*}
+  \sigma (z) = \frac{1}{1 + e^{-z}}
+  \end{equation*}
   $$
 - $\odot$: Handamard product
 
@@ -123,49 +125,52 @@ The most of these notes in this chapter are taken from Michael Nielsen's book [\
   (A \odot B)\_{ij} = (A)\_{ij} (B)\_{ij}
   $$
 
-{{< /admonition >}}
-
 ### Gradient descent
 
 The aim of the training algorithm is to minimize the cost $C(w,b)$ by an algorithm known as gradient descent:
 
-{{< admonition type=note title="Cost function" open=true >}}
+#### Cost function
 
-Cost function: a function of weights and biases
+It's a function $C(w,b)$ of weights and biases that is used to judge the performance of a model. For example:
 
-- MSE: mean squared error
+{{< admonition type=note title="MSE: Mean squared error" open=true >}}
 
-  - Individual cost for example $x$:
+- Individual cost for example $x$:
 
-    $$
-    \begin{equation*}
-      C_x \equiv \frac{1}{2} \\| y(x) - a \\|^2
-    \end{equation*}
-    $$
+  $$
+  \begin{equation*}
+    C_x \equiv \frac{1}{2} \\| y(x) - a \\|^2
+  \end{equation*}
+  $$
 
-  - <a id=eqn-MSE> </a>Average costs
+- <a id=eqn-MSE> </a>Average costs
 
-    $$
-    \begin{equation*}
-      C(w,b) \equiv \frac{1}{2n} \sum_x \\| y(x) - a\\|^2 \tag{MSE}
-    \end{equation*}
-    $$
+  $$
+  \begin{equation*}
+    C(w,b) \equiv \frac{1}{2n} \sum_x \\| y(x) - a\\|^2 \tag{MSE}
+  \end{equation*}
+  $$
 
 {{< /admonition >}}
 
-{{< admonition type=warning title="The necessary propertites of a cost function" open=true >}}
+Notes from Nielsens's book {{< cite Nielsen2015 >}}:
+
+{{< admonition type=note title="Properties and assumptions of cost functions" open=true >}}
+
+Necessary properties:
 
 - The cost function will be close to zero if the neuron's ouput is close to the desired output.
 - The cost function is always non-negative.
 - Small change in the weigths and biases can cause small change of corresponding cost function. Other standards like the number of images correctly classified is not a smooth function like quadratic cost.
-{{< /admonition >}}
 
-{{< admonition type=warning title="Two assumptions of cost function" open=true >}}
+Assumptions:
 
 1. The cost function can be written as an average $C = \frac{1}{n} \sum\_x C\_x$ over cos functions $C\_x$ for individual training examples, $x$. ([Why?](http://neuralnetworksanddeeplearning.com/chap2.html#the_two_assumptions_we_need_about_the_cost_function))
 2. The cost can be written as a function of the outputs from the neural network: $\operatorname{cost} C = C(a^L)$, where $a^L$ is the activation vector of the output layer.
 
 {{< /admonition >}}
+
+#### Algorithm
 
 <a id=eqn-AP> </a>
 Calculus tells us that $C$ changes as follows:
@@ -200,10 +205,10 @@ $$
 
 We can think this update rule as defining the gradient descent algorithm.
 
-In practice, we can use stochastic gradient descent (See [Equation \$ \rm SGD\$](#eqn-SGD)) instead of gradient descent for sake of speed:
+In practice, we can use stochastic gradient descent (see [Equation \$ \rm SGD\$](#eqn-SGD)) instead of gradient descent for sake of speed:
 
-{{< admonition type=note title="Stochastic gradient descent" open=true >}}
 <a id=eqn-SGD></a>
+{{< admonition type=note title="Stochastic gradient descent" open=true >}}
 For a set $X$ of training input, randomly choose sets of training inputs $X_1, X_2, ..., X_m$ ($X_i \cap X_j = \varnothing$ and $\bigcap\_i X_i = X$), ($X\_i$ is called mini-batch) we have:
 
 $$
@@ -230,22 +235,22 @@ $$
 
 where the sums are over all the training examples $X\_j$ in the current mini-batch.
 
-{{< admonition type=warning title="Choice of learning rate" open=true >}}
+{{< admonition type=warning title="Global minimum" open=true >}}
+This alogrithm that may not always find the global minimum of $C$.
+{{< /admonition >}}
+
+{{< admonition type=note title="Choice of learning rage" open=true >}}
 
 - Small enough that [Equation \$ \rm AP\$](#eqn-AP) is a good approximation
 - Not too small that gradient descent algorithm won't work very slowly.
 
 {{< /admonition >}}
 
-{{< admonition type=warning title="Global minimum" open=true >}}
-This alogrithm that may not always find the global minimum of $C$. There are many details need to be improved.
-{{< /admonition >}}
-
-{{< admonition type=warning title="Variation of gradient descent" open=true >}}
+{{< admonition type=note title="Variation of gradient descent" open=true >}}
 We can mimic a real physical ball that will fall to minimum by gravity, but it is necessary to compute second partial derivatives of $C$ which is quite costy.
 {{< /admonition >}}
 
-{{< admonition type=warning title="Choices for coefficients of a mean squared error" open=true >}}
+{{< admonition type=note title="Choices for coefficients of a mean squared error" open=true >}}
 
 For the coefficients of [Equation \$ \rm MSE\$](#eqn-MSE):
 
@@ -255,7 +260,7 @@ For the coefficients of [Equation \$ \rm MSE\$](#eqn-MSE):
 {{< /admonition >}}
 
 {{< admonition type=note title="A moral" open=true >}}
-sophisticated algorithm $\leq$ simple learning algorithm $+$ good training data.
+Sophisticated algorithm $\leq$ simple learning algorithm $+$ good training data.
 {{< /admonition >}}
 
 ### Back propagation
@@ -304,16 +309,16 @@ The backpropagation algorithm needs computing the partial derivatives $\partial 
 
 Its basic idea is:
 
-- Every partial derivatives $\partial C / \partial w^L\_{jk}$ and $\partial C / \partial b^L\_j$ can be computed by the error $\delta^L\_j$. (See Equation $\rm BP3$ and $\rm BP4$)
-- Every error vector $\delta^L$ in the $L^{\rm th}$ layer (except output layer) can be computed by $\delta^{L+1}$. (See Equation $\rm BP2$)
+- Every partial derivatives $\partial C / \partial w^L\_{jk}$ and $\partial C / \partial b^L\_j$ can be computed by the error $\delta^L\_j$. (see Equation $\rm BP3$ and $\rm BP4$)
+- Every error vector $\delta^L$ in the $L^{\rm th}$ layer (except output layer) can be computed by $\delta^{L+1}$. (see Equation $\rm BP2$)
 - Every error in the output layer can be computed by Equation $\rm BP1$
 
-{{< admonition type=warning title="Some inferences" open=true >}}
+{{< admonition type=note title="Some inferences" open=true >}}
 
 - Weights output from low-activation neurons learn slowly: from Equation $\rm BP4$ we can see, if the activation of the neuron input to the weight $w$ is small, then $\partial C / \partial w$ will be small, we say the weight learns slowly.
 - Weight in the final layer will learn slowly if the output neuron has saturated: see Equation $\rm BP1$, if the output neuron $\delta\ (z^L\_j)$ is either low activation ($\approx 0$) or high activation ($\approx 1$), then $\delta\' (z^L\_j)$ will be approximately $0$ or $1$. This will lead to low error ($\approx 0$) and therefore low change of weight.
-- Similarly insights from earlier layers (See Equation $\rm BP2$)
-- The proof of equations of backpropagation doesn't depend on the form of activation function. (See the [proof](http://neuralnetworksanddeeplearning.com/chap2.html#proof_of_the_four_fundamental_equations_(optional)))
+- Similarly insights from earlier layers (see Equation $\rm BP2$)
+- The proof of equations of backpropagation doesn't depend on the form of activation function. (see the [proof](http://neuralnetworksanddeeplearning.com/chap2.html#proof_of_the_four_fundamental_equations_(optional)))
 
 {{< /admonition >}}
 
@@ -327,7 +332,7 @@ Its algorithm is:
 
 #### Proof of Convergence
 
-pass
+T.B.D.
 
 ### Cost functions
 
@@ -335,7 +340,7 @@ Basic properties of cost functions (see this [section](#gradient-descent))
 
 #### The cross-entropy cost function
 
-From the equations of [back propagation](#back-propagation) we can infer that saturated output neuron will lead to low learning rate (See [this](http://neuralnetworksanddeeplearning.com/chap3.html#the_cross-entropy_cost_function)). We can define another cost function to eliminate the influence of the sigmoid function:
+From the equations of [back propagation](#back-propagation) we can infer that saturated output neuron will lead to low learning rate (see [this](http://neuralnetworksanddeeplearning.com/chap3.html#the_cross-entropy_cost_function)). We can define another cost function to eliminate the influence of the sigmoid function:
 
 {{< admonition type=note title="Cross-Entropy cost function" open=true >}}
 
@@ -387,9 +392,10 @@ Softmax is an approach to solve the problem of learning slowdown. Log-likelihood
 
 Softmax is the same as sigmoid layer except for the manipulation of the weighted inputs $z^L_j = \sum_{k} w^L_{jk} a^{L-1}_k + b^L_j$. The activation $a^L\_j$ of the $j^{\rm th}$ output neuron is:
 
+<a id=eqn-Softmax> </a>
 $$
 \begin{equation*}
-a^L\_j = \frac{e^{z^L\_j}}{\sum\_k e^{z^L\_k}} \tag{Softmax} \label{Softmax}
+a^L\_j = \frac{e^{z^L\_j}}{\sum\_k e^{z^L\_k}} \tag{Softmax}
 \end{equation*}
 $$
 
@@ -418,13 +424,13 @@ $$
 \end{align*}
 $$
 
-{{< admonition type=warning title="When to use softmax" open=true >}}
+{{< admonition type=note title="When to use softmax" open=true >}}
 
 - As a more general point of principle, softmax plus log-likelihood is worth using whenever you want to interpret the output activations as probabilities.
 
 {{< /admonition >}}
 
-{{< admonition type=warning title="Properties of softmax" open=true >}}
+{{< admonition type=note title="Properties of softmax" open=true >}}
 
 - Monotonicity: increasing $z^L\_j$ guaranteed to increase output activation $a^L\_j$ and will decrease all the other $a^L\_i, i \neq j$
 - Non-locality of softmax: any particular output activation $a^L\_j$ depends on all the weighted inputs $z^L\_i$
@@ -441,7 +447,7 @@ Overfitting: The point when the model fits too closely to the training set (lear
 
 Regulation: the process of modifying a learning algorithm so as to prevent overfitting.
 
-{{< admonition type=warning title="Size of the network" open=true >}}
+{{< admonition type=note title="Size of the network" open=true >}}
 Large networks have the potential to be more powerful than small networks, and so this is an option we’d only adopt reluctantly.
 {{< /admonition >}}
 
@@ -462,7 +468,7 @@ $$
 
 The $\lambda$ is known as the regularization parameter.
 
-{{< admonition type=warning title="The effect of regularization parameter" open=true >}}
+{{< admonition type=note title="The effect of regularization parameter" open=true >}}
 
 Intuitively, the effect of regularization is to make the network prefers to learn small weights. Large weights will
 only be allowed if they considerably improve the first part of the cost function. It can be viewed as a way of compromise:
@@ -507,7 +513,7 @@ $$
 
 We can see that the rule for the biases doesn't change, but that for weights changes. The weight $w$ is rescaled by a factor $1 - \eta \frac{\lambda}{n}$, and this rescaling is referred to as weight decay.
 
-{{< admonition type=warning title="The replicability of regularized runs" open=true >}}
+{{< admonition type=note title="The replicability of regularized runs" open=true >}}
 
 Unregularized runs will occasionally get "stuck" by caught in local minima of the cost function while regularized runs have provided more easily replicable results.
 
@@ -524,7 +530,7 @@ Heuristically, the length of the weight vector is likely to grow for unregulariz
   \end{equation*}
   $$
 
-  Un like L2 regularization, in L1 regularization, the weights shrink by a constant amount toward 0 (See [this](http://neuralnetworksanddeeplearning.com/chap3.html#other_techniques_for_regularization)):
+  Un like L2 regularization, in L1 regularization, the weights shrink by a constant amount toward 0 (see [this](http://neuralnetworksanddeeplearning.com/chap3.html#other_techniques_for_regularization)):
 
   $$
   \begin{equation*}
@@ -534,7 +540,7 @@ Heuristically, the length of the weight vector is likely to grow for unregulariz
 
   In L2, the weights shrink by an amount which is proportional to $w$. There fore L1 shrinks less for large $|w|$.
 
-  {{< admonition type=warning title="L1 vs L2" open=true >}}
+  {{< admonition type=note title="L1 vs L2" open=true >}}
 
   See [this blog](https://medium.com/analytics-vidhya/l1-vs-l2-regularization-which-is-better-d01068e6658c) and [this blog](https://neptune.ai/blog/fighting-overfitting-with-l1-or-l2-regularization).
 
@@ -547,7 +553,7 @@ Heuristically, the length of the weight vector is likely to grow for unregulariz
 
   In a process of forward-propagate and backpropagate, randomly (and temporarily) delete half the neurons in the hidden layers. And restore the dropout neurons and repeat the process.
 
-  {{< admonition type=warning title="How does dropout work?" open=true >}}
+  {{< admonition type=note title="How does dropout work?" open=true >}}
   Heuristically, for every process of forward and backward, it's like training different neural network. So the dropout procedure is like averaging the effects of a very large number of different networks. The different networks may overfit in different ways, but it seems that the net effect of dropout will be reduce overfitting.
 
   Another heuristic explanation is that it reduces the complex co-adaptations of neurons and is forced to learn more robust features that are useful in conjunction with many different random subsets of the other neurons.
@@ -575,8 +581,13 @@ T.B.D.
 
 T.B.D.
 
-- Max pooling
-- Average pooling
+#### Max pooling
+
+T.B.D.
+
+#### Average pooling
+
+T.B.D.
 
 ---
 
@@ -592,11 +603,11 @@ Standard MLP is insufficient to deal with problems with sequence model (like NLP
 
 Disadvantage:
 
-1. Computation speed/efficiency: its sequential nature precludes parallelization within training examples [\$^2\$][2].
+1. Computation speed/efficiency: its sequential nature precludes parallelization within training examples {{< cite Vaswani2017 >}}.
 2. Memory usage: more context information needs larger hidden states which leads to larger memory consumption.
-3. Although there're improvements and tricks, the fundamental constraint of sequential computation, however, remains [\$^2\$][2].
+3. Although there're improvements and tricks, the fundamental constraint of sequential computation, however, remains {{< cite Vaswani2017 >}}.
 
-There is a trend that replaces RNN with CNN to avoid sequential computation [\$^2\$][2]:
+There is a trend that replaces RNN with CNN to avoid sequential computation {{< cite Vaswani2017 >}}:
 
 > The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU [16], ByteNet [18] and ConvS2S [9], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.
 
@@ -757,13 +768,13 @@ That is to say, the $t^{\rm th}$ token was predict only on the $n-1$ previous to
 
 #### RNN Model
 
-pass
+T.B.D.
 
 ### Improved RNNs
 
 #### Gated Recurrent Unit
 
-pass
+T.B.D.
 
 #### Long Short Term Memory (LSTM)
 
@@ -771,11 +782,11 @@ see this blog [*Understanding LSTM Networks*](https://colah.github.io/posts/2015
 
 #### Bidirectional RNN
 
-pass
+T.B.D.
 
 #### Deep RNN
 
-pass
+T.B.D.
 
 ---
 
@@ -783,7 +794,7 @@ pass
 
 Transformer have an encoder-decoder structure.
 
-> Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence aligned RNNs or convolution [\$^2\$][2].
+> Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence aligned RNNs or convolution {{< cite Vaswani2017 >}}.
 
 {{< admonition type=question title="Difference between layernorm and batchnorm?" open=true >}}
 [youtube video 25:47](https://www.youtube.com/watch?v=nzqlFIcCSWQ)
@@ -823,15 +834,15 @@ See this blog [Word Embeddings](https://lena-voita.github.io/nlp_course/word_emb
 
 #### The Skip-Gram Model
 
-pass
+T.B.D.
 
 #### Negative Sampling
 
-pass
+T.B.D.
 
 #### Global Vectors (GloVe)
 
-pass
+T.B.D.
 
 ## Some Neural Networks
 
@@ -839,44 +850,27 @@ pass
 
 T.B.D.
 
-Input (c=1) -> (filter f=5 s=1 c=6) -> (avg pool f=2 s=2) -> output of 1st conv layer -> (filter f=5 s=1 c=16) -> (avg pool f=2 s=2) -> ouput of 2nd conv layer -> (FC) -> output of 1st FC layer -> (FC) -> Ouput of 2nd layer -> $\hat y$
-
 ### AlexNet
 
 T.B.D.
-
-Input (c=3) -> (filter f=11 s=4 c=96) -> (max pool f=3 s=2) -> output -> (filter f=5 c=256 same conv) -> (max f=3 s=2) -> output -> (filter f=3 same conv) -> (filter f=3 same conv) -> (filter f=3 same conv) -> (max pool f=3 s=2) -> output -> FC -> Fc -> softmax
 
 ### VGG
 
 T.B.D.
 
-- double the channel in almost every block
-
 ### ResNet
 
 T.B.D.
-
-a^l = g(z^l+2 + a^l)
-
-- short cut/ skip connection
 
 ### NiN
 
 T.B.D.
 
-- 1x1 conv
-- can be used to reduce the number of channels
-
 ### Inception Network
 
 T.B.D.
 
-- concatenate different filter or pooling in one layer
-
 ## Generalized Language Models
-
-I found a good blog that discuss various generalized language models.
 
 {{< admonition type=question title="Fine-tuning approach vs. Feature-based approach" open=true >}}
 
@@ -887,7 +881,7 @@ T.B.D., see this blog [Feature-based Transfer Learning vs Fine Tuning?](https://
 ### ELMo
 
 - See this blog *Generalized Language Models* about [ELMo](https://lilianweng.github.io/posts/2019-01-31-lm/#elmo)
-- Paper of ELMo[\$^3\$][3].
+- Paper of ELMo {{< cite Peters2018 >}}.
 
 {{< admonition type=question title="How does softmax layer work in ELMo" open=true >}}
 
@@ -895,7 +889,7 @@ In the paper of ELMo, they say:
 
 > The top layer LSTM output, $\vec{h}^{LM}\_{k,L}$, is used to predict the next token $t_{k+1}$ with a Softmax Layer.
 
-But how? As far as I know, the Softmax layer needs many weighted inputs (see Equation $\ref{Softmax}$). But how can a single vector $\vec{h}^{LM}\_{k,L}$ can be used as a input of a Softmax layer?
+But how? As far as I know, the Softmax layer needs many weighted inputs (see [Equation \$ \rm Softmax\$](#eqn-Softmax)). But how can a single vector $\vec{h}^{LM}\_{k,L}$ can be used as a input of a Softmax layer?
 
 {{< /admonition >}}
 
@@ -906,7 +900,7 @@ But how? As far as I know, the Softmax layer needs many weighted inputs (see Equ
 ### BERT
 
 - See this video [*BERT 论文逐段精读【论文精读】*](https://www.youtube.com/watch?v=ULD3uIb2MHQ), it also tells you how to calculate the number of parameters in a model.
-- Paper of BERT[\$^4\$][4]
+- Paper of BERT {{< cite Devlin2019 >}}
 
 {{< admonition type=question title="What is a bidirectional transformer?" open=true >}}
 
@@ -918,7 +912,7 @@ In the paper of BERT:
 
 ### GPT
 
-- Paper of GPT[\$^5\$][5]
+- Paper of GPT {{< cite Radford2018 >}}
 
 {{< admonition type=question title="GPT vs. BERT" open=true >}}
 
@@ -928,23 +922,8 @@ BERT is pre-trained by cloze test and GPT is pre-trained by predicating?
 
 ### GPT-2
 
-- Paper of GPT-2[\$^6\$][6]
+- Paper of GPT-2 {{< cite Radford2019 >}}
 
-## References
+## Bibliography
 
-1. <a id=ref1> </a> Nielsen, M.A., Neural networks and deep learning. Vol. 25. 2015: Determination press San Francisco, CA, USA.
-2. <a id=ref2> </a> Vaswani, A., et al., Attention is All You Need. Neural Information Processing Systems, 2017.
-3. <a id=ref3> </a> Peters, M.E., et al. Deep Contextualized Word Representations. 2018. New Orleans, Louisiana: Association for Computational Linguistics.
-4. <a id=ref4> </a> Devlin, J., et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2019. p. 4171-4186.
-5. <a id=ref5> </a> Radford, A. and K. Narasimhan. Improving Language Understanding by Generative Pre-Training. 2018.
-6. <a id=ref6> </a> Radford, A., et al. Language Models are Unsupervised Multitask Learners. 2019.
-
-[1]: <#ref1> "Nielsen, M.A., Neural networks and deep learning. Vol. 25. 2015: Determination press San Francisco, CA, USA."
-[2]: <#ref2> "Vaswani, A., et al., Attention is All You Need. Neural Information Processing Systems, 2017."
-[3]: <#ref3> "Peters, M.E., et al. Deep Contextualized Word Representations. 2018. New Orleans, Louisiana: Association for Computational Linguistics."
-[4]: <#ref4> "Devlin, J., et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2019. p. 4171-4186."
-[5]: <#ref5> "Radford, A. and K. Narasimhan. Improving Language Understanding by Generative Pre-Training. 2018."
-[6]: <#ref6> "Radford, A., et al. Language Models are Unsupervised Multitask Learners. 2019."
-
-
-{{< bibliography >}}
+{{<  bibliography >}}

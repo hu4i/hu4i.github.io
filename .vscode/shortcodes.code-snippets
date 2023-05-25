@@ -37,53 +37,25 @@
 			"$4"
 		]
 	},
-	"Reference": {
+	"Hugo-Cite": {
 		"scope": "markdown",
-		"prefix": "ref",
+		"prefix": "cite",
 		"body": [
-			"[\\\\$^$1\\\\$][$1]"
+			"{{< cite $1 >}}",
 		]
 	},
-	"Reference_anchor": {
+	"Equation label": {
 		"scope": "markdown",
-		"prefix": "ref-anchor",
-		"body": [
-			"<a id=ref$1> </a> $2"
-		]
-	},
-	"Reference_link": {
-		"scope": "markdown",
-		"prefix": "ref-link",
-		"body": [
-			"[$1]: <#ref$1> \"$2\""
-		]
-	},
-	"Reference_equation_achor": {
-		"scope": "markdown",
-		"prefix": "ref-equation-anchor",
+		"prefix": "label-equation",
 		"body": [
 			"<a id=eqn-$1> </a>"
 		]
 	},
-	"Reference_equation": {
+	"Equation reference": {
 		"scope": "markdown",
 		"prefix": "ref-equation",
 		"body": [
 			"[Equation \\\\$ \\rm $1\\\\$](#eqn-$1)"
-		]
-	},
-	"Reference_image_achor": {
-		"scope": "markdown",
-		"prefix": "ref-image-anchor",
-		"body": [
-			"<a id=img-$1> </a>"
-		]
-	},
-	"Reference_image": {
-		"scope": "markdown",
-		"prefix": "ref-image",
-		"body": [
-			"[Equation \\\\$ \\rm $1\\\\$](#img-$1)"
 		]
 	},
 }
