@@ -1,0 +1,12 @@
+goldmark:
+  renderer: 
+    unsafe: true
+highlight:
+  noClasses: false
+  # anchorLineNos: true
+  # guessSyntax: true
+  lineNos: true
+  style: monokai
+tableOfContents:
+  endLevel: 3
+  startLevel: 2

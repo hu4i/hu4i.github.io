@@ -1,0 +1,13 @@
+{{- /* $index is necessary and page is optional */ -}}
+
+{{- $index := (.Get 0) | string -}}
+{{- $page := (.Get 1) | string -}}
+{{- if and $index -}}
+{{- $citation := (printf "[%s](#%s-%s)" $index "bib" $index) -}}
+{{- if $page -}}
+{{- $citation := printf "%s, p.%s" $citation $page -}}
+{{- printf "(%s)" $citation | markdownify -}}
+{{- else -}}
+{{- printf "(%s)" $citation | markdownify -}}
+{{- end -}}
+{{- end -}}

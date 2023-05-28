@@ -37,25 +37,53 @@
 			"$4"
 		]
 	},
-	"Hugo-Cite": {
+	"Bibliography cite": {
 		"scope": "markdown",
 		"prefix": "cite",
 		"body": [
-			"{{< cite $1 >}}",
+			"{{< cite $1 $2 >}}",
+		]
+	},
+	"Bibliography label": {
+		"scope": "markdown",
+		"prefix": "lblbib",
+		"body": [
+			"{{< label $1 bib >}}"
+		]
+	},
+	"Bibliography reference": {
+		"scope": "markdown",
+		"prefix": "refbib",
+		"body": [
+			"({{< reference $1 bib >}})"
 		]
 	},
 	"Equation label": {
 		"scope": "markdown",
-		"prefix": "label-equation",
+		"prefix": "lbleqn",
 		"body": [
-			"<a id=eqn-$1> </a>"
+			"{{< label $1 eqn >}}"
 		]
 	},
 	"Equation reference": {
 		"scope": "markdown",
-		"prefix": "ref-equation",
+		"prefix": "refeqn",
 		"body": [
-			"[Equation \\\\$ \\rm $1\\\\$](#eqn-$1)"
+			"Equation {{< reference $1 eqn >}}"
+		]
+	},
+	"Terminology label": {
+		"scope": "markdown",
+		"prefix": "lbltrm",
+		"body": [
+			"{{< label $1 trm >}}"
+		]
+	},
+	"Terminology reference": {
+		"scope": "markdown",
+		"prefix": "reftrm",
+		"body": [
+			"Terminology {{< reference $1 trm >}}"
 		]
 	},
 }

@@ -43,38 +43,55 @@ Notes from Nielsens's book {{< cite Nielsen2015 >}}:
 
 ### Terminologies and Notations
 
+![MLP](images/MLP.svg)
+
 #### Terminologies
 
-- **Input layer**: the leftmost layer in the network.
-- **Input neurons**: the neurons within the input layer.
-- **Output layer**: the rightmost layer in the network.
-- **Output neurons**: the neurons within the output layer.
-- **Hidden layer**: it means nothing more than “not an input or an output layer”.
-- **MLPs** (**Multilayer perceptrons**): networks are made up of sigmoid neurons (not perceptrons).
-- **Feedforward neural networks**: the output from one layer is used as input to the next layer (no loops in the network)
-- **Epoch**: when all the training inputs are fed, it is said to complete an epoch of training.
+Input layer
+: The leftmost layer in a network.
+
+Input neurons
+: The neurons within the input layer.
+
+Output layer
+: The rightmost layer in a network.
+
+Output neurons
+: The neurons within the output layer.
+
+Hidden layer
+: It means nothing more than “not an input or an output layer”.
+
+MLPs (Multilayer perceptrons)
+: Networks that are made up of sigmoid neurons (not perceptrons).
+
+Feedforward neural networks
+: Neural networks in which the output from one layer is used as the input to the next layer (no loops in the network)
+
+Epoch
+: When all the training inputs are fed, it is said to complete an epoch of training.
 
 #### Notations
 
-- $w^L\_{jk}$: weight of a connection between two layers
+$w^L\_{jk}$
+: Weight of a connection between two layers  
+It's the weight for the connection from the $k^{\operatorname{th}}$ neuron in the $(L-1)^{\operatorname{th}}$ to the $j^{\operatorname{th}}$ neuron in the $L^{\rm th}$ layer.
 
-  It's weight for the connection from the $k^{\operatorname{th}}$ neuron in the $(L-1)^{\operatorname{th}}$ to the $j^{\operatorname{th}}$ neuron in the $L^{\rm th}$ layer.
+$w^L$
+: Weight matrix of connections between two layers  
+It's the weight matrix in which the entry at $j^{\rm th}$ row and $k^{\rm th}$ column is $w^L\_{jk}$.
 
-- $w^L$: weight of connections between two layers
-  
-  It's the weight matrix of which entry in the $j^{\rm th}$ row and $k^{\rm th}$ column is $w^L\_{jk}$.
+$b^L\_j$
+: Bias  
+It's the bias of the $j^{\rm th}$ neuron $L^{\rm th}$ layer.
 
-- $b^L\_j$: bias
-  
-  It's the bias of the $j^{\rm th}$ neuron $L^{\rm th}$ layer.
+$b^L$
+: Bias vector  
+It's the bias vector in the $L^{\rm th}$ layer.
 
-- $b^L$: bias vector
-  
-  It's the bias vector in the $L^{\rm th}$ layer.
-
-- $a^L\_j$: activation
-  
-  It is the activation of the $j^{\rm th}$ neuron in the $l^{\rm th}$ layer.
+$a^L\_j$
+: Activation  
+It is the activation of the $j^{\rm th}$ neuron in the $L^{\rm th}$ layer.
 
   $$
   \begin{equation*}
@@ -84,22 +101,33 @@ Notes from Nielsens's book {{< cite Nielsen2015 >}}:
 
   where $k$ ranges over all the neurons in the $(L-1)^{\rm th}$
 
-- $a^L$: activation vector
-
-    $$
-    \begin{equation*}
-    a^L = \sigma(w^L a^{L-1} + b^L)
-    \end{equation*}
-    $$
-
-    vectorization of $\sigma$ (the sigmoid function) occurs here
-- $z^l$: the weighted input
-  
-  It is the intermediate quantity of $a^l$
+$\sigma$
+: Activation function, e.g., sigmoid function:
 
   $$
   \begin{equation*}
-    z^l = w^l a^{l-1} + b^l
+  \sigma (z) = \frac{1}{1 + e^{-z}}
+  \end{equation*}
+  $$
+
+$a^L$
+: Activation vector
+
+  $$
+  \begin{equation*}
+  a^L = \sigma(w^L a^{L-1} + b^L)
+  \end{equation*}
+  $$
+
+  vectorization of $\sigma$ (the sigmoid function) occurs here
+
+$z^l$
+: The weighted input vector
+It is the intermediate quantity of $a^L$
+
+  $$
+  \begin{equation*}
+    z^L = w^L a^{L-1} + b^L
   \end{equation*}
   $$
 
@@ -107,19 +135,13 @@ Notes from Nielsens's book {{< cite Nielsen2015 >}}:
 
   $$
   \begin{equation*}
-  z^l\_j = \sum\_k w^l\_{jk} a^{l-1}\_k + b^l\_j
+  z^L\_j = \sum\_k w^L\_{jk} a^{L-1}\_k + b^L\_j
   \end{equation*}
   $$
-- $\sigma$: sigmoid function
 
-  $$
-  \begin{equation*}
-  \sigma (z) = \frac{1}{1 + e^{-z}}
-  \end{equation*}
-  $$
-- $\odot$: Handamard product
-
-  If $A, B$ are $m \times n$ matrices, then
+$\odot$
+: Handamard product  
+If $A, B$ both are $m \times n$ matrices, then
 
   $$
   (A \odot B)\_{ij} = (A)\_{ij} (B)\_{ij}
@@ -926,4 +948,20 @@ BERT is pre-trained by cloze test and GPT is pre-trained by predicating?
 
 ## Bibliography
 
-{{<  bibliography >}}
+Devlin et al., 2019 {{< label Devlin2019 bib >}}
+: Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 4171–4186. https://doi.org/10.18653/v1/N19-1423
+
+Nielsen, 2015 {{< label Nielsen2015 bib >}}
+: Nielsen, M. A. (2015). Neural networks and deep learning (Vol. 25). Determination press San Francisco, CA, USA.
+
+Peters et al., 2018 {{< label Peters2018 bib >}}
+: Peters, M., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., & Zettlemoyer, L. (2018). Deep Contextualized Word Representations. Proceedings of the 2018 Conference of the North American Chapter of           the Association for Computational Linguistics: Human Language           Technologies, Volume 1 (Long Papers), 2227–2237. https://doi.org/10.18653/v1/N18-1202
+
+Radford & Narasimhan, 2018 {{< label Radford2019 bib >}}
+: Radford, A., & Narasimhan, K. (2018). Improving Language Understanding by Generative Pre-Training.
+
+Radford et al., 2019 {{< label Radford2019 bib >}}
+: Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., & others. (2019). Language models are unsupervised multitask learners. OpenAI Blog, 1(8), 9.
+
+Vaswani et al., 2017 {{< label Vaswani2017 bib >}}
+: Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is All you Need. Advances in Neural Information Processing Systems, 30. https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html

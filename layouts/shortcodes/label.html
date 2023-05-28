@@ -1,0 +1,7 @@
+{{- /* $index is necessary and $lbl is optional */ -}}
+
+{{- $index := (.Get 0) -}}
+{{- $lbl := default "lbl" (.Get 1) -}}
+{{- if and $lbl $index -}}
+<a id={{$lbl}}-{{- $index -}}> </a>
+{{- end -}}

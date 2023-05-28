@@ -1,0 +1,21 @@
+baseURL: "https://examplesite.com/"
+title: Wei Li's blog 
+paginate: 5
+
+theme:
+- PaperModX
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
+pygmentsUseClasses: true
