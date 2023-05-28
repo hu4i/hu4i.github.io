@@ -19,7 +19,7 @@ I’m currently teaching myself in the area of program logic and its related bac
 
 **Email:** [wei.li@stu.xidian.edu.cn](mailto:wei.li@stu.xidian.edu.cn)
 
-**Mobile:** (+86) 18909188277
+**Mobile:** (+86) 189xxxxxxxx
 
 **Estimated Graduation Date:** June 2024
 

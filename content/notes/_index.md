@@ -1,6 +1,5 @@
 ---
 title: Notes
-summary: Just some notes for quick reviewing or relearning, which are mostly copied from others.
-description: Just some notes for quick reviewing or relearning, which are mostly copied from others.
+summary: Just some notes, no creative work here.
 paginate: 10
 ---

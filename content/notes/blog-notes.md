@@ -163,16 +163,3 @@ Mermaid lets you create diagrams by writing text in markdown files.
     John-->>-Alice: I feel great!
   {{</* /mermaid */>}}
   ```
-
-### Hugo-cite
-
-I use [hugo-cite](https://github.com/loup-brun/hugo-cite) to create citations and modified some settings:
-
-- modifies the `cite.html` to show only the first author in citations.
-- modifies the css of `hugo-cite-bibliography` class.
-
-I use [Zotero](https://www.zotero.org/) with [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/) to export CSL-JSON file. Some tips:
-
-- Here is the citation key formula I prefer: `auth.capitalize + year`
-- When you have changed the formula, remember to refresh BibTeX key
-- Choose `Better CSL JSON` rather than `CSL JSON` when exporting.
