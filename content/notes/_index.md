@@ -1,5 +1,5 @@
 ---
 title: Notes
-summary: Just some notes, no creative work here.
+description: Just some notes for review, no creative work here. Correctness is not guaranteed.
 paginate: 10
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Pytorch Notes"
 date: 2023-04-12T20:09:36+08:00
+summary: Notes of Pytorch.
 draft: true
 ---
 

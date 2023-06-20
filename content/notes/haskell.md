@@ -1,7 +1,7 @@
 ---
 title: "Haskell Notes"
 date: 2023-04-10T08:49:08+08:00
-summary: "Just some notes, nothing interesting."
+summary: Notes of Haskell.
 draft: false
 tags: ["haskell"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Matrix Theory Notes"
 date: 2023-04-24T09:47:36+08:00
+summary: Notes of matrix theory.
 draft: true
 ---
 

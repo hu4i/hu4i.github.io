@@ -1,6 +1,7 @@
 ---
 title: "Linear Algebra Notes"
 date: 2023-04-13T17:23:06+08:00
+summary: Notes of linear algebra.
 draft: true
 ---
 

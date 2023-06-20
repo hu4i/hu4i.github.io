@@ -1,6 +1,7 @@
 ---
 title: "Advances and Open Problems in Federated Learning"
 date: 2023-05-26T09:14:45+08:00
+summary: Book of Kairouz et al. 2021.
 draft: true
 ---
 

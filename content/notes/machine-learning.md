@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning Note"
 date: 2023-04-12T09:43:26+08:00
+summary: Notes of machine learning.
 draft: true
 mermaid: true
 ---
