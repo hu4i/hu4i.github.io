@@ -2,7 +2,7 @@
 title: "Haskell Notes"
 date: 2023-04-10T08:49:08+08:00
 summary: Notes of Haskell.
-draft: false
+draft: true 
 tags: ["haskell"]
 ---
 

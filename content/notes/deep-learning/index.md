@@ -2,7 +2,7 @@
 title: "Deep Learning Notes"
 date: 2023-05-17T10:10:23+08:00
 summary: Notes of deep learning.
-draft: false
+draft: true
 ---
 
 ## Unsorted notes

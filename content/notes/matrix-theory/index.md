@@ -5,13 +5,15 @@ summary: Notes of matrix theory.
 draft: true
 ---
 
-## Chapter 1 Linear Space and Linear transformation
+## Chapter 1 Linear Space and Linear Transformation
 
-### Section 1.1 Linear space
+### Section 1.1 Linear Space
+
+![Section_1_1](images/section_1_1.svg)
 
 #### Linear space and its properties
 
-- (Def. 1.1) Linear space
+- (Def. 1.1, p6) Linear space (vector space)
 - (Thm. 1.1) Uniqueness of $\mathbf{0}$ and $-\mathbf{x}$
 - (Notations)
   - Linear combination
@@ -29,6 +31,8 @@ draft: true
 #### Change of basis
 
 - (Notation) Transition matrix
+  - Transition of bases
+  - Transition of coordinates
 
 #### Subspace
 
@@ -40,7 +44,7 @@ draft: true
     - Zero vector subspace $\{\mathbf{0}\}$, $V$
   - Nontrivial subspace
   - Proper subspace
-- Span $L(\mathbf{x}\_1, \mathbf{x}\_2, \dots, \mathbf{x}\_{n}) = \\{k\_1 \mathbb{x}\_1+ , \dots, + k\_1 \mathbb{x}\_m \\}$
+- Span, $L(\mathbf{x}\_1, \mathbf{x}\_2, \dots, \mathbf{x}\_{n}) = \\{k\_1 \mathbf{x}\_1+ , \dots, + k\_1 \mathbf{x}\_m \\}$
 - (Def. 1.6) Range (a.k.a. column space) of matrix $A$, $R(A) = L(\mathbf{a}\_1, \mathbf{a}\_2, \dots, \mathbf{a}\_{n})$
   - Row space $R(A^T)$
   - $\operatorname{Rank}(A) = \operatorname{dim}(R(A)) = \operatorname{dim}(R(A^T))$
@@ -60,8 +64,13 @@ draft: true
   - $V\_1 + V_2$ is the smallest subspace that contains both $V\_1$ and $V\_2$
 - (Thm. 1.6) $\operatorname{dim}(V\_1) + \operatorname{dim}(V\_2) = \operatorname{dim}(V\_1 + V\_2) + \operatorname{dim}(V\_1 \cap V\_2)$
 - (Def. 1.9) Direct sum $A \oplus B$
+- (Thm. 1.7) Sum of two subspaces are direct sum iff. ?
+  - (Lem. 1) with (Thm. 1.6)
+  - (Lem. 1) relation among the bases of these three subspaces.
 
-### Section 1.2 Linear transformation and its matrix
+### Section 1.2 Linear Transformations and Their Matrix Representations
+
+![Seciton_1_2](images/section_1_2.svg)
 
 #### Linear transformation and its arithmetic
 
@@ -71,7 +80,7 @@ draft: true
   - map inverse to inverse
   - map linear **dependence** to linear **dependence** (not for independence)
 - (Def. 1.12) Range $R(T) = \\{ T \mathbf{x}\ |\ \mathbf{x} \in V \\}$ and kernel $N(T) = \\{ \mathbf{x}\ |\ T \mathbf{x} = 0, \mathbf{x} \in V \\}$ of linear transformation
-- (Thm. 1.8) $R(T)$ and $N(T)$ are subspace of V
+- (Thm. 1.8) $R(T)$ and $N(T)$ are subspaces of $V$
 - (Def. 1.13) Rank of $T$ is $\operatorname{dim}(R(T))$ and nullity of $T$ is $\operatorname{dim}(N(T))$
 - (Notations)
   - Identity transformation $T\_{e}$ and zero transformation $T\_{0}$
@@ -85,7 +94,7 @@ draft: true
 
 - (Def. 1.14) Matrix of a linear transformation
   $T(\mathbf{x}\_1, \mathbf{x}\_2, \dots, \mathbf{x}\_{n}) = (\mathbf{x}\_1, \mathbf{x}\_2, \dots, \mathbf{x}\_{n})A$
-- Matrixs of special transofrmations
+- Matrices of special transformations
   - $O$ and $T\_{0}$
   - $I$ and $T\_{e}$
   - $mI$ and $T\_{m}$
@@ -119,6 +128,7 @@ draft: true
 - (Def. 1.17) Characteristic matrix, characteristic polynomial $\phi\_A(\lambda) = \operatorname{det}(\lambda I - A)$
   - (Example 1.18) (the fundamental system of solutions)
   - $V\_{\lambda\_{0}} = \\{ \mathbf{x}\ |\ T \mathbf{\mathbf{x}}= \lambda\_{0} \mathbf{x},\ \mathbf{x} \in V^n  \\}$ is a subspace of $V^n$
+- (Def. 1.18) Eigenspace.
 - Trace of a matrix $A$, $\operatorname{tr}(A)$ is the sum of its main diagonal entries
   - The sum of all eigenvalues of $A$ is $\operatorname{tr}(A)$
   - The product of all eigenvalues of $A$ is $\operatorname{det}(A)$
@@ -188,7 +198,9 @@ draft: true
 - (Thm. 1.30) Every $n \times n$ matrix $A$ is similar to a Jordan normal form matrix $J$, $A$ determine the $J$ except for the order of Jordan blocks in it.
 - How to calculate $P$ in $P^{-1} A P = J$
 
-### Section 1.3 Euclid space and unitary linear space
+### Section 1.3 Euclid space and unitary space
+
+![Seciton_1_3](images/section_1_3.svg)
 
 #### Euclid space
 

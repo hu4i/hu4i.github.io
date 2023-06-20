@@ -46,7 +46,7 @@
 	},
 	"Bibliography label": {
 		"scope": "markdown",
-		"prefix": "lblbib",
+		"prefix": "labelbib",
 		"body": [
 			"{{< label $1 bib >}}"
 		]

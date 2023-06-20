@@ -1,0 +1,518 @@
+<mxfile host="65bd71144e">
+    <diagram id="v9daj2Lb-dTMAHKwt4vM" name="Section_1_1">
+        <mxGraphModel dx="1754" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="44" style="edgeStyle=none;html=1;" parent="1" source="4" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Linaer spaces and their properties" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="10" width="360" height="285" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" parent="4" source="3" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Linear space (Def. 1.1)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="20" y="60" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="4" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="4" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Linear combination" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="20" y="145" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="4" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Linear independence" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="214" y="145" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Dimension" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="20" y="225" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Properties (Thm. 1.1)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="214" y="60" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="16" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Basis and coordinate" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="345" width="370" height="210" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;" parent="16" source="19" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Basis (Def. 1.3)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="16" vertex="1">
+                    <mxGeometry x="20" y="60" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="16" source="28" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Coordinates (Def. 1.3)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="16" vertex="1">
+                    <mxGeometry x="20" y="130" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Uniqueness (Thm. 1.2)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="16" vertex="1">
+                    <mxGeometry x="200" y="130" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Change of Basis and coordinate" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="385" width="370" height="130" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;" parent="36" source="38" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Transition matrix" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="36" vertex="1">
+                    <mxGeometry x="20" y="60" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Change-of-basis and Change-of-coordinate&lt;br&gt;&amp;nbsp;formula" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="36" vertex="1">
+                    <mxGeometry x="205" y="55" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="50" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Linear Subspaces" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="95" y="615" width="430" height="250" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=none;html=1;" parent="50" source="52" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;html=1;" parent="50" source="52" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="50" source="52" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Linear subspace (Def. 1.5)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="50" vertex="1">
+                    <mxGeometry x="30" y="60" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Range and nullspace of a matrix (Def. 1.6, Def. 1.7)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="50" vertex="1">
+                    <mxGeometry x="225" y="100" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Linear span" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="50" vertex="1">
+                    <mxGeometry x="225" y="35" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Extension of linear independent vectors to basis (Thm. 1.3)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="50" vertex="1">
+                    <mxGeometry x="30" y="170" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="The Intersection and Sum of Subspaces" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="935" width="540" height="200" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="75" source="77" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="The intersection of subspaces is subspace (Thm. 1.4)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="75" vertex="1">
+                    <mxGeometry x="380" y="55" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="75" source="79" target="84" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="edgeStyle=none;html=1;" parent="75" source="79" target="90" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="The sum of subspaces (Def. 1.8)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="75" vertex="1">
+                    <mxGeometry x="30" y="60" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="75" source="84" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="The sum of subspaces is subspace (Thm. 1.5)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="75" vertex="1">
+                    <mxGeometry x="210" y="55" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="The dimension formula (Thm. 1.6)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="75" vertex="1">
+                    <mxGeometry x="300" y="130" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Direct sum (Def. 1.9)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="75" vertex="1">
+                    <mxGeometry x="30" y="130" width="130" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Section_1_2" id="cqEOg1KaX7ZpxoZ5vKaa">
+        <mxGraphModel dx="1532" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="HNtnm71IoMIKpB819edk-0"/>
+                <mxCell id="HNtnm71IoMIKpB819edk-1" parent="HNtnm71IoMIKpB819edk-0"/>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-47" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HNtnm71IoMIKpB819edk-1" source="HNtnm71IoMIKpB819edk-3" target="XGZRAW2WAHWhkIykSEfR-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="HNtnm71IoMIKpB819edk-3" value="Linear transformations and their arithmetic" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HNtnm71IoMIKpB819edk-1">
+                    <mxGeometry x="40" y="40" width="680" height="260" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1ioCLqFn2Bw4nw3xVALj-1" value="" style="edgeStyle=none;html=1;" edge="1" parent="HNtnm71IoMIKpB819edk-3" source="HNtnm71IoMIKpB819edk-6" target="1ioCLqFn2Bw4nw3xVALj-0">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-5" value="" style="edgeStyle=none;html=1;" edge="1" parent="HNtnm71IoMIKpB819edk-3" source="HNtnm71IoMIKpB819edk-6" target="XGZRAW2WAHWhkIykSEfR-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="HNtnm71IoMIKpB819edk-6" value="Linear transformation (Def. 1.10, Def. 1.11)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HNtnm71IoMIKpB819edk-3">
+                    <mxGeometry x="20" y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-1" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HNtnm71IoMIKpB819edk-3" source="1ioCLqFn2Bw4nw3xVALj-0" target="XGZRAW2WAHWhkIykSEfR-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1ioCLqFn2Bw4nw3xVALj-0" value="Range and kernel of linear transformation (Def.1.12)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HNtnm71IoMIKpB819edk-3">
+                    <mxGeometry x="330" y="40" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-2" value="Rank and nullity of linear transformation (Def. 1.13,Thm. 1.8)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HNtnm71IoMIKpB819edk-3">
+                    <mxGeometry x="345" y="130" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-4" value="Algebraic operation on linear transformations&lt;br&gt;(Sum, scalar&amp;nbsp;multiplication, composition, inverse, exponent, polynomial)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HNtnm71IoMIKpB819edk-3">
+                    <mxGeometry x="20" y="130" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-94" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.458;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HNtnm71IoMIKpB819edk-1" source="XGZRAW2WAHWhkIykSEfR-6" target="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-6" value="Matrix representations of linear transformations" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HNtnm71IoMIKpB819edk-1">
+                    <mxGeometry x="40" y="360" width="680" height="320" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-17" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-6" source="XGZRAW2WAHWhkIykSEfR-9" target="XGZRAW2WAHWhkIykSEfR-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-21" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-6" source="XGZRAW2WAHWhkIykSEfR-9" target="XGZRAW2WAHWhkIykSEfR-20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="90" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-23" value="" style="edgeStyle=none;html=1;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-6" source="XGZRAW2WAHWhkIykSEfR-9" target="XGZRAW2WAHWhkIykSEfR-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-9" value="Matrix of linear transformation (Def. 1.14)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-6">
+                    <mxGeometry x="30" y="80" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-16" value="The corrspondent algebraic operation of matrices (Thm. 1.9)&lt;br&gt;Polynomial of matrix (Lemma)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-6">
+                    <mxGeometry x="360" y="30" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-20" value="Transformations of coordinates (Thm. 1.10)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-6">
+                    <mxGeometry x="360" y="120" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-25" value="" style="edgeStyle=none;html=1;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-6" source="XGZRAW2WAHWhkIykSEfR-22" target="XGZRAW2WAHWhkIykSEfR-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-22" value="Relationship of matrices of&amp;nbsp; the same linear transformation with different bases (Thm. 1.11)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-6">
+                    <mxGeometry x="30" y="175" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-24" value="Similarity of matrices (Thm. 1.15)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-6">
+                    <mxGeometry x="30" y="260" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-119" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.521;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HNtnm71IoMIKpB819edk-1" source="XGZRAW2WAHWhkIykSEfR-36" target="XGZRAW2WAHWhkIykSEfR-113">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-120" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.46;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HNtnm71IoMIKpB819edk-1" source="XGZRAW2WAHWhkIykSEfR-36" target="XGZRAW2WAHWhkIykSEfR-95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-36" value="Eigenvalues and eigenvectors" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HNtnm71IoMIKpB819edk-1">
+                    <mxGeometry x="6" y="740" width="815" height="480" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-60" value="" style="edgeStyle=none;html=1;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-40" target="XGZRAW2WAHWhkIykSEfR-59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-40" value="Eigenvalue and eigenvector of linear transformation (Def. 1.16)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="30" y="50" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-67" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-59" target="XGZRAW2WAHWhkIykSEfR-66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-68" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-59" target="XGZRAW2WAHWhkIykSEfR-61">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-70" style="edgeStyle=none;html=1;exitX=1.001;exitY=0.673;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-59" target="XGZRAW2WAHWhkIykSEfR-64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-77" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-59" target="XGZRAW2WAHWhkIykSEfR-76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-93" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-59" target="XGZRAW2WAHWhkIykSEfR-92">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-59" value="Characteristic matrix and characteristic polynomial&lt;br&gt;Eigenvalue and eigenvector of matrix&lt;br&gt;&amp;nbsp;(Def. 1.17)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="30" y="170" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-61" value="Eigenspace (Def. 1.18)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="350" y="70" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-64" value="Similar matrices have the same characteristic polynomial (Thm. 1.14)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="350" y="210" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-66" value="Similar matrices have the same trace (Thm. 1.13, Thm. 1.12)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="350" y="140" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-91" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.377;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-36" source="XGZRAW2WAHWhkIykSEfR-76" target="XGZRAW2WAHWhkIykSEfR-79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-76" value="Square matrix is similar with triangle matrix (Thm. 1.17)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="350" y="280" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-79" value="Square matrix is the root of its charcteristic polynomical (Thm. 1.18, Hamilton-Cayley)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="350" y="369" width="305" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-92" value="Eigenvectors of different eigenvalues are linear independent (Thm. 1.22)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-36">
+                    <mxGeometry x="45" y="290" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-95" value="Diagonal matrices" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HNtnm71IoMIKpB819edk-1">
+                    <mxGeometry x="450" y="1280" width="364" height="250" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-97" value="Matrix \(A\) of a linear transformation \(T\) on \(V^n\) can be a diagonal matrix iff. \(T\) have \(n\) linear independent eigenvetors. (Thm. 1.24)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-95">
+                    <mxGeometry x="30" y="50" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-111" value="A square matrix is similar with diagonal matrices iff. it has \(n\) linear independent eigenvectors. (Thm. 1.25)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-95">
+                    <mxGeometry x="30" y="140" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-113" value="Invariant subspace" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HNtnm71IoMIKpB819edk-1">
+                    <mxGeometry x="20" y="1280" width="364" height="340" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-116" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-113" source="XGZRAW2WAHWhkIykSEfR-114" target="XGZRAW2WAHWhkIykSEfR-115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-114" value="Invariant subspace of a linear transforamtion \(T\) (Def. 1.20)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-113">
+                    <mxGeometry x="27" y="50" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-118" value="" style="edgeStyle=none;html=1;" edge="1" parent="XGZRAW2WAHWhkIykSEfR-113" source="XGZRAW2WAHWhkIykSEfR-115" target="XGZRAW2WAHWhkIykSEfR-117">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-115" value="If \(V^n\) is the direct sum of invariant subspaces of \(T\), then there is a diagonal relationship among matrices of \(T\) under \(V^n\) and under these subspcaes (Thm. 1.27)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-113">
+                    <mxGeometry x="22" y="120" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="XGZRAW2WAHWhkIykSEfR-117" value="Matrix of \(T\) under some basis is diagonal iff. the sum of the dimension of all the characteristic subspaces for different eigenvalues is \(n\)&amp;nbsp; (Lemma)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XGZRAW2WAHWhkIykSEfR-113">
+                    <mxGeometry x="22" y="230" width="320" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Section_1_3" id="ulxEbbcvhlFgrpGtWhWa">
+        <mxGraphModel dx="3670" dy="1505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="Wb2ind5ysOwQ0Z3JKpLq-0"/>
+                <mxCell id="Wb2ind5ysOwQ0Z3JKpLq-1" parent="Wb2ind5ysOwQ0Z3JKpLq-0"/>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Wb2ind5ysOwQ0Z3JKpLq-1" source="Wb2ind5ysOwQ0Z3JKpLq-3" target="U-iuvAe8RBp3ByRH-L5v-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Wb2ind5ysOwQ0Z3JKpLq-3" value="Euclid Space" style="swimlane;whiteSpace=wrap;html=1;" parent="Wb2ind5ysOwQ0Z3JKpLq-1" vertex="1">
+                    <mxGeometry x="40" y="40" width="560" height="210" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-1" value="" style="edgeStyle=none;html=1;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" source="Wb2ind5ysOwQ0Z3JKpLq-6" target="U-iuvAe8RBp3ByRH-L5v-0" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-3" value="" style="edgeStyle=none;html=1;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" source="Wb2ind5ysOwQ0Z3JKpLq-6" target="U-iuvAe8RBp3ByRH-L5v-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Wb2ind5ysOwQ0Z3JKpLq-6" value="Euclid space and inner product (Def. 1.22)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" vertex="1">
+                    <mxGeometry x="20" y="30" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-0" value="Gram matrix" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" vertex="1">
+                    <mxGeometry x="280" y="35" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-5" value="" style="edgeStyle=none;html=1;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" source="U-iuvAe8RBp3ByRH-L5v-2" target="U-iuvAe8RBp3ByRH-L5v-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-7" value="" style="edgeStyle=none;html=1;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" source="U-iuvAe8RBp3ByRH-L5v-2" target="U-iuvAe8RBp3ByRH-L5v-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-2" value="Norm in Euclid space (Def. 1.23)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" vertex="1">
+                    <mxGeometry x="20" y="100" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-4" value="Cauchy–Bunyakovsky–Schwarz inequality" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" vertex="1">
+                    <mxGeometry x="280" y="95" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-6" value="Angle between vectors (Def. 1.24)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Wb2ind5ysOwQ0Z3JKpLq-3" vertex="1">
+                    <mxGeometry x="20" y="160" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-26" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1" source="U-iuvAe8RBp3ByRH-L5v-8" target="72rGSpx1oRCP-XxkIle8-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-39" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1" source="U-iuvAe8RBp3ByRH-L5v-8" target="72rGSpx1oRCP-XxkIle8-27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-8" value="Orthogonality" style="swimlane;whiteSpace=wrap;html=1;" parent="Wb2ind5ysOwQ0Z3JKpLq-1" vertex="1">
+                    <mxGeometry x="-42.5" y="300" width="725" height="400" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-21" value="" style="edgeStyle=none;html=1;" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-11" target="U-iuvAe8RBp3ByRH-L5v-20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-11" value="Orthogonality (Def. 1.25)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="55" y="40" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-23" value="" style="edgeStyle=none;html=1;" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-20" target="U-iuvAe8RBp3ByRH-L5v-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-25" value="" style="edgeStyle=none;html=1;" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-20" target="U-iuvAe8RBp3ByRH-L5v-24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-20" value="Orthogonal set of vectors (Def. 1.26)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="55" y="100" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-22" value="They are linear independent (Thm. 1.32)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="362.5" y="100" width="227.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-27" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-24" target="U-iuvAe8RBp3ByRH-L5v-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-29" value="" style="edgeStyle=none;html=1;" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-24" target="U-iuvAe8RBp3ByRH-L5v-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-24" value="Orthogonal basis and orthonormal basis （Def. 1.27）" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="10" y="160" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-26" value="The Gram-Schmidt Process (Thm. 1.33)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="362.5" y="160" width="227.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-31" value="" style="edgeStyle=none;html=1;" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-28" target="U-iuvAe8RBp3ByRH-L5v-30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-28" value="Orthogonal complement" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="85" y="240" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-1" value="" style="edgeStyle=none;html=1;" edge="1" parent="U-iuvAe8RBp3ByRH-L5v-8" source="U-iuvAe8RBp3ByRH-L5v-30" target="72rGSpx1oRCP-XxkIle8-0">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U-iuvAe8RBp3ByRH-L5v-30" value="Any vector space can be represented as the direct sum of a subspace and the orthogonal complement of that subspace (Thm. 1.34)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="U-iuvAe8RBp3ByRH-L5v-8" vertex="1">
+                    <mxGeometry x="281.5" y="225" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-0" value="Relationship among range and nullspace of a matrix and its transpose matrix (Thm. 1.35)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U-iuvAe8RBp3ByRH-L5v-8">
+                    <mxGeometry x="281.5" y="320" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-70" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1" source="72rGSpx1oRCP-XxkIle8-3" target="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-3" value="Orthogonal Transformations and Orthogonal Matrices" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1">
+                    <mxGeometry x="-480" y="770" width="725" height="241" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-24" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-3" source="72rGSpx1oRCP-XxkIle8-5" target="72rGSpx1oRCP-XxkIle8-23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-5" value="Orthogonal transformation and its necessary and suffcient condition.&lt;br&gt;(Def. 1.28, Thm.1.36)&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Orthogonality%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-42.5%22%20y%3D%22300%22%20width%3D%22725%22%20height%3D%22410%22%20as%3D%22geometry%22%3E%3CmxRectangle%20x%3D%22110%22%20y%3D%22170%22%20width%3D%22140%22%20height%3D%2230%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%224%22%20target%3D%227%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Orthogonality%20(Def.%201.25)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%2240%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%228%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%2211%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Orthogonal%20set%20of%20vectors%20(Def.%201.26)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%22100%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%228%22%20value%3D%22They%20are%20linear%20independent%20(Thm.%201.32)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22100%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%229%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2212%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2210%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2214%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2211%22%20value%3D%22Orthogonal%20basis%20and%20orthonormal%20basis%20%EF%BC%88Def.%201.27%EF%BC%89%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22160%22%20width%3D%22310%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2212%22%20value%3D%22The%20Gram-Schmidt%20Process%20(Thm.%201.33)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22160%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2213%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2214%22%20target%3D%2216%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2214%22%20value%3D%22Orthogonal%20complement%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2285%22%20y%3D%22240%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2215%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2216%22%20target%3D%2217%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2216%22%20value%3D%22Any%20vector%20space%20can%20be%20represented%20as%20the%20direct%20sum%20of%20a%20subspace%20and%20the%20orthogonal%20complement%20of%20that%20subspace%20(Thm.%201.34)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22225%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2217%22%20value%3D%22Relationship%20among%20range%20and%20nullspace%20of%20a%20matrix%20and%20its%20transpose%20matrix%20(Thm.%201.35)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22320%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Orthogonality%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-42.5%22%20y%3D%22300%22%20width%3D%22725%22%20height%3D%22410%22%20as%3D%22geometry%22%3E%3CmxRectangle%20x%3D%22110%22%20y%3D%22170%22%20width%3D%22140%22%20height%3D%2230%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%224%22%20target%3D%227%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Orthogonality%20(Def.%201.25)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%2240%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%228%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%2211%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Orthogonal%20set%20of%20vectors%20(Def.%201.26)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%22100%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%228%22%20value%3D%22They%20are%20linear%20independent%20(Thm.%201.32)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22100%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%229%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2212%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2210%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2214%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2211%22%20value%3D%22Orthogonal%20basis%20and%20orthonormal%20basis%20%EF%BC%88Def.%201.27%EF%BC%89%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22160%22%20width%3D%22310%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2212%22%20value%3D%22The%20Gram-Schmidt%20Process%20(Thm.%201.33)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22160%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2213%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2214%22%20target%3D%2216%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2214%22%20value%3D%22Orthogonal%20complement%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2285%22%20y%3D%22240%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2215%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2216%22%20target%3D%2217%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2216%22%20value%3D%22Any%20vector%20space%20can%20be%20represented%20as%20the%20direct%20sum%20of%20a%20subspace%20and%20the%20orthogonal%20complement%20of%20that%20subspace%20(Thm.%201.34)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22225%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2217%22%20value%3D%22Relationship%20among%20range%20and%20nullspace%20of%20a%20matrix%20and%20its%20transpose%20matrix%20(Thm.%201.35)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22320%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%&lt;/span&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-3">
+                    <mxGeometry x="42.5" y="40" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-25" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-3" source="72rGSpx1oRCP-XxkIle8-22" target="72rGSpx1oRCP-XxkIle8-23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-22" value="Orthogonal matrix (Def. 1.29)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-3">
+                    <mxGeometry x="442.5" y="60" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-23" value="(In Eculid space) A linear transformation is orthogonal iff. its matrix is orthogonal under orthonormal basis. (Thm. 1.37)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-3">
+                    <mxGeometry x="230.75" y="141" width="263.5" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-69" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1" source="72rGSpx1oRCP-XxkIle8-27" target="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-27" value="Symmetric Transformations and Symmetric Matrices" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1">
+                    <mxGeometry x="360" y="770" width="725" height="240" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-33" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-27" source="72rGSpx1oRCP-XxkIle8-29" target="72rGSpx1oRCP-XxkIle8-32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-35" value="" style="edgeStyle=none;html=1;" edge="1" parent="72rGSpx1oRCP-XxkIle8-27" source="72rGSpx1oRCP-XxkIle8-29" target="72rGSpx1oRCP-XxkIle8-34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-29" value="Symmetric transformation.&lt;br&gt;(Def. 1.30, Thm.1.38)&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Orthogonality%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-42.5%22%20y%3D%22300%22%20width%3D%22725%22%20height%3D%22410%22%20as%3D%22geometry%22%3E%3CmxRectangle%20x%3D%22110%22%20y%3D%22170%22%20width%3D%22140%22%20height%3D%2230%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%224%22%20target%3D%227%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Orthogonality%20(Def.%201.25)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%2240%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%228%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%2211%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Orthogonal%20set%20of%20vectors%20(Def.%201.26)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%22100%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%228%22%20value%3D%22They%20are%20linear%20independent%20(Thm.%201.32)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22100%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%229%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2212%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2210%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2214%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2211%22%20value%3D%22Orthogonal%20basis%20and%20orthonormal%20basis%20%EF%BC%88Def.%201.27%EF%BC%89%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22160%22%20width%3D%22310%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2212%22%20value%3D%22The%20Gram-Schmidt%20Process%20(Thm.%201.33)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22160%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2213%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2214%22%20target%3D%2216%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2214%22%20value%3D%22Orthogonal%20complement%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2285%22%20y%3D%22240%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2215%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2216%22%20target%3D%2217%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2216%22%20value%3D%22Any%20vector%20space%20can%20be%20represented%20as%20the%20direct%20sum%20of%20a%20subspace%20and%20the%20orthogonal%20complement%20of%20that%20subspace%20(Thm.%201.34)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22225%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2217%22%20value%3D%22Relationship%20among%20range%20and%20nullspace%20of%20a%20matrix%20and%20its%20transpose%20matrix%20(Thm.%201.35)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22320%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Orthogonality%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-42.5%22%20y%3D%22300%22%20width%3D%22725%22%20height%3D%22410%22%20as%3D%22geometry%22%3E%3CmxRectangle%20x%3D%22110%22%20y%3D%22170%22%20width%3D%22140%22%20height%3D%2230%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%224%22%20target%3D%227%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Orthogonality%20(Def.%201.25)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%2240%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%228%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%227%22%20target%3D%2211%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Orthogonal%20set%20of%20vectors%20(Def.%201.26)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2255%22%20y%3D%22100%22%20width%3D%22220%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%228%22%20value%3D%22They%20are%20linear%20independent%20(Thm.%201.32)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22100%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%229%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2212%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2210%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2211%22%20target%3D%2214%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2211%22%20value%3D%22Orthogonal%20basis%20and%20orthonormal%20basis%20%EF%BC%88Def.%201.27%EF%BC%89%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22160%22%20width%3D%22310%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2212%22%20value%3D%22The%20Gram-Schmidt%20Process%20(Thm.%201.33)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22362.5%22%20y%3D%22160%22%20width%3D%22227.5%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2213%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2214%22%20target%3D%2216%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2214%22%20value%3D%22Orthogonal%20complement%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2285%22%20y%3D%22240%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2215%22%20value%3D%22%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%222%22%20source%3D%2216%22%20target%3D%2217%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2216%22%20value%3D%22Any%20vector%20space%20can%20be%20represented%20as%20the%20direct%20sum%20of%20a%20subspace%20and%20the%20orthogonal%20complement%20of%20that%20subspace%20(Thm.%201.34)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22225%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%2217%22%20value%3D%22Relationship%20among%20range%20and%20nullspace%20of%20a%20matrix%20and%20its%20transpose%20matrix%20(Thm.%201.35)%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Ddefault%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22281.5%22%20y%3D%22320%22%20width%3D%22350%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%&lt;/span&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-27">
+                    <mxGeometry x="42.5" y="40" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-32" value="(In Eculid space) A linear transformation is symmetric iff. its matrix is symmetric under orthonormal basis. (Thm. 1.37)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-27">
+                    <mxGeometry x="402.5" y="40" width="263.5" height="59.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-37" value="" style="edgeStyle=none;html=1;" edge="1" parent="72rGSpx1oRCP-XxkIle8-27" source="72rGSpx1oRCP-XxkIle8-34" target="72rGSpx1oRCP-XxkIle8-36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-34" value="The eigenvalues of real symmetric matrix are all real. (Thm. 1.39)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-27">
+                    <mxGeometry x="42.5" y="140" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-36" value="The eigenvectors of different eigenvalues of real symmetric matrix are orthogonal vector-wise. (Thm. 1.40)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-27">
+                    <mxGeometry x="402.5" y="140" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-40" value="Unitary space" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Wb2ind5ysOwQ0Z3JKpLq-1">
+                    <mxGeometry x="15" y="1130" width="610" height="520" as="geometry">
+                        <mxRectangle x="110" y="170" width="140" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-42" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-43" target="72rGSpx1oRCP-XxkIle8-50">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="129.99999999999955" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-43" value="Unitary space and complex inner product (Def. 1.31)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="35" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-52" value="" style="edgeStyle=none;html=1;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-50" target="72rGSpx1oRCP-XxkIle8-51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-55" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-50" target="72rGSpx1oRCP-XxkIle8-53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-50" value="Similary conclusions as in Eculid space, except for some details" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="20" y="130" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-51" value="Unitary matrix and Hermite matrix" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="314" y="140" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-56" style="edgeStyle=none;html=1;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-53" target="72rGSpx1oRCP-XxkIle8-54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-59" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-53" target="72rGSpx1oRCP-XxkIle8-58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-53" value="Every complex square matrix is an unitary similar matrix with a triangular matrix which has eigenvalues of the square matrix as its diagonal entries (Thm. 1.42, Schur, (1))" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="20" y="250" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-66" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-54" target="72rGSpx1oRCP-XxkIle8-62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-54" value="Every real square matrix is an orthogonal similar matrix with a triangular matrix which has eigenvalues of the square matrix as its diagonal entries (Thm. 1.42, Schur, (2))" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="320" y="250" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-60" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-57" target="72rGSpx1oRCP-XxkIle8-58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-65" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="72rGSpx1oRCP-XxkIle8-40" source="72rGSpx1oRCP-XxkIle8-57" target="72rGSpx1oRCP-XxkIle8-62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-57" value="Normal matrix (Def. 1.32)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="200" y="350" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-58" value="A complex square matrix is an unitary similar matrix with a diagonal matrix&amp;nbsp; iff. it is normal (Thm. 1.42, (1))&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="20" y="430" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="72rGSpx1oRCP-XxkIle8-62" value="If all the eigenvalues of a sqaure matrix are real, then it is an orthogonal similar matrix with a diagonal matrix iff. it is normal. (Thm. 1.42, (2))" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="72rGSpx1oRCP-XxkIle8-40">
+                    <mxGeometry x="310" y="430" width="270" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
