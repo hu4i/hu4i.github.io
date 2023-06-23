@@ -54,16 +54,6 @@
 		"prefix": "set-comprehension",
 		"body": "\\\\\\\\{ $1\\ |\\ $2 \\\\\\\\}",
 	},
-	"theorem": {
-		"scope": "markdown,latex",
-		"prefix": "theorem",
-		"body": "(Thm. $1)",
-	},
-	"definition": {
-		"scope": "markdown,latex",
-		"prefix": "definition",
-		"body": "(Def. $1)",
-	},
 	"sum": {
 		"scope": "markdown,latex",
 		"prefix": "sum",
