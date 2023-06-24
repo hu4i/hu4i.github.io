@@ -12,9 +12,6 @@ MathJax = {
       ["\[\[", "\]\]"],
     ],
     tags : 'ams',
-    tagformat: {
-      tag:    (tag) => '[' + tag + ']'
-    }
   },
   svg: {
     fontCache: "global",
@@ -22,8 +19,25 @@ MathJax = {
 };
 </script>
 
-
-<!-- Scripts for hugo-cite -->
-<!-- See https://github.com/loup-brun/hugo-cite -->
-
-<link rel="stylesheet" type="text/css" href="{{ "/hugo-cite.css" | relURL }}" />
+<!-- Image Zoom-in Effect -->
+<!-- https://adityatelange.in/blog/hugo-image-zoom-in/ -->
+<style>
+  @media screen and (min-width: 769px) {
+      /* .post-content is a class which will be present only on single pages 
+          and not lists and section pages in Hugo */
+      .post-content input[type="checkbox"]:checked ~ label > img {
+          transform: scale(1.6);
+          background-color: white;
+          cursor: zoom-out;
+          position: relative;
+          z-index: 999;
+      }
+  
+      .post-content img.zoomCheck {
+          transition: transform 0.15s ease;
+          /* background-color: white; */
+          z-index: 999;
+          cursor: zoom-in;
+      }
+  }
+  </style>

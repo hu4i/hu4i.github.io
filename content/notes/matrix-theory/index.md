@@ -3,13 +3,14 @@ title: "Matrix Theory Notes"
 date: 2023-04-24T09:47:36+08:00
 summary: Notes of matrix theory.
 draft: true
+mermaid: true
 ---
 
 ## Chapter 1 Linear Space and Linear Transformation
 
 ### Section 1.1 Linear Space
 
-![Section_1_1](images/section_1_1.svg)
+![Section_1_1](images/section_1_1.i.svg)
 
 #### Linear space and its properties
 
@@ -70,7 +71,7 @@ draft: true
 
 ### Section 1.2 Linear Transformations and Their Matrix Representations
 
-![Seciton_1_2](images/section_1_2.svg)
+![Seciton_1_2](images/section_1_2.i.svg)
 
 #### Linear transformation and its arithmetic
 
@@ -200,7 +201,7 @@ draft: true
 
 ### Section 1.3 Euclid space and unitary space
 
-![Seciton_1_3](images/section_1_3.svg)
+![Seciton_1_3](images/section_1_3.i.svg)
 
 #### Euclid space
 

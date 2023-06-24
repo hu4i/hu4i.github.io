@@ -163,3 +163,10 @@ Mermaid lets you create diagrams by writing text in markdown files.
     John-->>-Alice: I feel great!
   {{</* /mermaid */>}}
   ```
+
+### Image Color Inversion and Zoom-In Effect
+
+I combine these codes below to improve presentation of images:
+
+- Color Inversion: See [This blog](https://zerovip.github.io/en/15738/)
+- Zoom-In: See [This blog](https://adityatelange.in/blog/hugo-image-zoom-in/)
